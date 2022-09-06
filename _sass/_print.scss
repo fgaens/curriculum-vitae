@@ -8,18 +8,12 @@
     }
 
     img.avatar {
-        filter: grayscale(1);
-        -webkit-filter: greyscale(1);
+      display: none;
     }
-   .main-wrapper .time {
-       float: right;
-        color: black !important;
-        -webkit-print-color-adjust: exact; 
-   }
+
     .sidebar-wrapper {
         position: static;
-        float: right;
-        width: 40%;
+        width: 100%;
         -webkit-print-color-adjust: exact; 
     }
 
@@ -42,4 +36,19 @@
      color: #ffffff !important;
    }
 
+  .main-wrapper {
+    grid-column: span 12;
+  }
+
+  .sidebar-wrapper {
+    grid-column: span 12;
+    .container-block{
+      width: 50%;
+      float:left;
+      padding: 15px 30px;
+      &.contact{
+        width: 100%;
+      }
+    }
+  }
 }
