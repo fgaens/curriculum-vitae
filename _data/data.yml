@@ -78,7 +78,7 @@ experiences:
           The second project I was working on together with a backend developer is an integration with ROB, where work orders can be sent directly to a leasing company and 
           can also be processed in sync. At the moment we're upgrading the frontend tool to mui5 and implementing new features.
         tasks: |
-          Time recording module:
+          Time registration module:
             - UI/UX
             - Setting up a new frontend application in react
             - Fetching via React Query
