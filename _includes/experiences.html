@@ -29,6 +29,27 @@
     </div><!--//details-->
     {% endif %}
 
+    {% if experience.tasks %}
+    <div class="tasks">
+      <p><strong>Tasks</strong></p>
+      {{ experience.tasks | markdownify }}
+    </div><!--//tasks-->
+    {% endif %}
+
+    {% if experience.projects %}
+    <div class="projects">
+      <p><strong>Projects</strong></p>
+      {{ experience.projects | markdownify }}
+    </div><!--//tasks-->
+    {% endif %}
+
+    {% if experience.environments %}
+    <div class="environments">
+      <p><strong>Environments</strong></p>
+      {{ experience.environments | markdownify }}
+    </div><!--//environments-->
+    {% endif %}
+
   </div><!--//item-->
   {% endfor %}
 

@@ -57,9 +57,6 @@ sidebar:
           link:
 
 
-career-profile:
-    title: 
-    summary: 
 education:
     title: Education
     info:
@@ -79,7 +76,7 @@ experiences:
     title: Experiences
     info:
       - role: Software developer
-        time: 2020 - Present
+        time: 11/2020 - Present
         company: Car-Systems B.V. / LKQ
         details: |
           Car-Systems has more than 20 years of experience in automating garage businesses. 
@@ -91,31 +88,137 @@ experiences:
           registration tool, where employees can book their hours and you have a clear overview of who is doing what. 
           The second project I am currently working on together with a backend developer is an integration with ROB, where work cards can be sent directly to the leasing company and 
           can also be processed in sync.
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
+        tasks: |
+          Time recording module:
+            - UI/UX
+            - Setting up a new frontend application in react
+            - Fetching via React Query
+            - Frontend development   
+
+          ROB:
+            - UI/UX
+            - Main focus is frontend and a few backend additions.
+            - Integration of ROB within the current GMS (FE)
+            - Work order
+            - Tyre change
+            - Courtesy vehicles
+            - Service (via TecRMI)
+            - Repair time (via TecRMI)
+            - Set up React modules as generically as possible because in addition to ROB, other leasing companies will also be integrated
+          
+          GMS:
+            - Convert Navigation to Material UI v5
+            - Make additional purchases possible for different vehicles at once
+            - Add Storybook
+            - Create new components and functionalities
+            - Adjust templates
+            - Testing (Jest and CY)
+            - ...
+        environments: |
+          React, Typescript, GoLang, PostgreSQL, Atlassian
+
+      - role: Lead front-end/ full-stack developer
+        time: 07/2019 – 11/2020
+        company: Fairplay Casino’s
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.   
-          At CarSys, I am working on the development of a Garage Management System that enables garages to easily manage everything from appointment management 
-          and planning to ordering parts and invoicing via one online tool. The first big project I was asked to do here together with two other developers was 
-          the development of a time registration tool, where employees can book their hours and you have a clear overview of who is doing what. The second project 
-          I am currently working on together with a backend developer is an integration with ROB, where work cards can be sent directly to the leasing company 
-          and can also be processed in sync.          
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
+          Fair Play casinos are entertainment centres with a wide variety of games of chance, where anyone of legal age can play. 
+          Fair Play has several casinos in Europe and also online. 
+          
+          Online casino platform offering slot games, table games and live casino games. 
+          Both platforms had to be converted according to the new house style and had to comply with the legislation of the relevant country. 
+          In addition, security and authentication played an important role for these platforms.
+          The biggest adaptation for the Spanish casino, besides language and design, was a slot module which enables a player to determine in advance 
+          how long he wants to play, how much money he wants to spend, how often he is reminded of his current balance and how long he does not want 
+          to play again after the session has ended. As the Spanish platform was an extension of the current platform, the Dutch platform is a completely 
+          new platform. It will contain the same functionalities, but the structure and programming language are different.
+        tasks: |
+          For the Spanish platform, I adapted the current platform according to the Spanish legislation. Both backend and frontend.
+            - Development
+            - Test driven development
+
+          For the Dutch platform, I am responsible together with a colleague for the architecture and I am lead of the frontend team.
+            - Team lead 
+            - Team coordination (communication, planning)
+            - Analysis
+            - Architecture
+        projects:
+        environments: |
+          PHP, Node, React, Html, Sass, Webpack, Transifex, Confluence, Jira, Gitlab, Bitbucket, Kubernetes, Helm
+
+      - role: Front-end developer
+        time: 01/2019 – 07/2019
+        company: Unilogic
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          Unilogic has been the ICT partner for schools, governments and businesses throughout the Netherlands since 1996. 
+          They realise sustainable solutions for the needs of their clients, complete with all necessary products and services. 
+          I worked on the Dapto project. Dapto is a web-based administration system that supports education professionals in 
+          entering and processing data on/about pupils and their staff.
+        tasks: |
+          Design, frontend, backend and database model:
+            - Designing and integrating the existing Pravoo model, in a flexible way so that own models can also be developed
+            - Designing and implementing a tool to add learning lines.
+            - Designing and implementing a class book in which a teacher can make his class schedule via drag and drop and see at a glance which students are in front of him, where he can also add observations or actions per class or student
+            - Designing and adding a meeting planner with which teachers can plan parent meetings that parents can sign up for and where parents can request a free meeting
+            - Converting the design for student overviews to Angular
+            - Developing a colorpicker component for Angular
+            - ...
+        projects:
+        environments: |
+          Angular, TypeScript, JavaScript, CSS, HTML, Yii-framework, PHP, PostgreSQL
+
+    - role: Analist/ developer/ Data protection manager
+        time: 2015 – 2018
+        company: AppSaloon
+        details: |
+          I joined AppSaloon in 2015 as a front-end developer. She got the chance to expand her skills with react, angular and PHP. 
+          Currently she is responsible for preparing quotes, translating the customer's questions into a usable algorithm for the developer, 
+          is a fullstack web developer and jumps in as an app developer if necessary. Next to developing, she is also engrossed in everything 
+          that has to do with GDPR and has made sure that AppSaloon is GDPR ready.
+        tasks:
+        projects: |
+          AppSaloon - WPGDPR Core Plugin
+            - nalysis and development of a WordPress plugin that allows users to retrieve, modify and request deletion of their data.
+  
+          Colorbreeze - Colortally
+            - Application to validate colour values of digital prints.
+  
+          Q Works - WooCommerce Transportation Tool
+            - Analysis and development of a calculation tool to calculate transportation costs for steel plates and sandwich panels in industrial construction.
+  
+          Kellogg's - Monkey Coco Na
+            - Analysis and development of a JavaScript game for Kellogg's. By analogy with Bobbit.
+        environments: |
+          Angular, JavaScript, Gulp, Git, SVG, React, Redux, SCSS, PHP, CSS, Jquery, Sass
+
+    - role: Teacher Web Development
+        time: 2016 – 2018
+        company: Syntra Genk
+        details: |
+          As a web development teacher, I taught students the programming languages, HTML, JavaScript, Angular, React PHP and CSS. 
+          I also coached my class to become front-end developers. 
+          I trained them in: programming, testing and implementing designs
+        tasks:
+        projects:
+        environments:
+
+    - role: Project Manager / Coordinator & Teacher
+        time: 2010 - 2015
+        company: PXL
+        details: |
+          During my period at PXL, I was project manager of a research project on Universal Design in which a listed house was converted into a UD Woonlabo.
+        tasks: |
+            - Manager UD Woonlabo (Participation in and organisation of the management committee and the administrative tasks associated with the project, both in the construction phase and during operational activities after opening)
+            - Search for European and national support + follow-up of the files (ERDF objective 2 project with support from the province of Limburg and the city of Hasselt)
+            - Promotion of UD Woonlabo and securing of investors (more than 30 partner companies found who donated material resources)
+            - Presentation of UD and UD Woonlabo at conferences including the Universal Design conference in Lund
+            - Supervising the building process
+            - Organising and leading focus groups
+            - Coordinating research into Universal Design in the built environment
+            - Guiding tours and organising events after completion (exhibitions, cooking workshops, dining in the dark, etc.)
+            - Supervising interns
+        projects:
+        environments:
+
 projects:
     title: Projects
     intro: >
