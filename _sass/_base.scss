@@ -79,7 +79,7 @@ p {
     //used for profile image
     max-width: 100px;
     margin-bottom: 15px;
-    border: 0px solid #fff;
+    border: 0 solid #fff;
     border-radius: 100%;
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
   }
@@ -123,13 +123,13 @@ p {
     .meta {
       color: rgba(256, 256, 256, 0.6);
       font-weight: 500;
-      margin-bottom: 0px;
+      margin-bottom: 0;
       margin-top: 0;
     }
     .time {
       color: rgba(256, 256, 256, 0.6);
       font-weight: 500;
-      margin-bottom: 0px;
+      margin-bottom: 0;
     }
   }
   .languages-container {
@@ -190,10 +190,15 @@ p {
   .job-title,
   .degree {
     color: $text-color;
-    font-size: 16px;
     margin-top: 0;
     margin-bottom: 0;
     font-weight: 500;
+  }
+  .degree {
+    font-size: 16px;
+  }
+  .job-title{
+    font-size: 20px;
   }
   .time {
     position: absolute;
@@ -241,6 +246,14 @@ p {
     .item {
       margin-bottom: 15px;
     }
+  }
+}
+
+.experiences-section {
+  .level-title {
+    font-size: 14px;
+    margin-top: 0;
+    margin-bottom: 12px;
   }
 }
 
