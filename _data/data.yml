@@ -166,7 +166,7 @@ experiences:
         environments: |
           Angular, TypeScript, JavaScript, CSS, HTML, Yii-framework, PHP, PostgreSQL
 
-    - role: Analist/ developer/ Data protection manager
+      - role: Analist/ developer/ Data protection manager
         time: 2015 – 2018
         company: AppSaloon
         details: |
@@ -190,7 +190,7 @@ experiences:
         environments: |
           Angular, JavaScript, Gulp, Git, SVG, React, Redux, SCSS, PHP, CSS, Jquery, Sass
 
-    - role: Teacher Web Development
+      - role: Teacher Web Development
         time: 2016 – 2018
         company: Syntra Genk
         details: |
@@ -201,7 +201,7 @@ experiences:
         projects:
         environments:
 
-    - role: Project Manager / Coordinator & Teacher
+      - role: Project Manager / Coordinator & Teacher
         time: 2010 - 2015
         company: PXL
         details: |
