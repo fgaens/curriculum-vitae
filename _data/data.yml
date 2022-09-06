@@ -85,7 +85,12 @@ experiences:
           Car-Systems has more than 20 years of experience in automating garage businesses. 
           Car-Systems was created in the owner's workshop, literally on the shop floor. 
           This means that the software fits the daily routine of the workshop.
-            - Bullet point
+          
+          At CarSys, I am working on the development of a Garage Management System that enables garages to easily manage everything from appointment management and planning 
+          to ordering parts and invoicing via one online tool. The first big project I was asked to do here together with two other developers was the development of a time 
+          registration tool, where employees can book their hours and you have a clear overview of who is doing what. 
+          The second project I am currently working on together with a backend developer is an integration with ROB, where work cards can be sent directly to the leasing company and 
+          can also be processed in sync.
       - role: Senior Software Engineer
         time: 2014 - 2015
         company: Google, London
