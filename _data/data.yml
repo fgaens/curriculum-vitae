@@ -7,103 +7,84 @@ sidebar:
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
+    name: Mieke Nijs
+    tagline: Full Stack Developer with passion for Frontend Development
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    timezone: America/Cancun Timezone
+    email: mieke.nijs@gmail.com
+    phone: 0479/22 58 27
+    timezone: 
     citizenship:
-    website: blog.webjeda.com #do not add http://
+    website: 
     linkedin: alandoe
-    xing: alandoe
-    github: sharu725
-    telegram: # add your nickname without '@' sign
+    xing: mieke-nijs-2a854133
+    github: Mi3k3
+    telegram: 
     gitlab:
     bitbucket:
-    twitter: '@webjeda'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    twitter: 
+    stack-overflow: 
     codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
+    goodreads: 
+    pdf: 
 
     languages:
       title: Languages
       info:
-        - idiom: English
+        - idiom: Dutch
           level: Native
 
-        - idiom: French
-          level: Professional
+        - idiom: English
+          level: Very Good
 
-        - idiom: Spanish
-          level: Professional
+        - idiom: French
+          level: Good
 
     interests:
       title: Interests
       info:
-        - item: Climbing
+        - item: Swimming
           link:
 
-        - item: Snowboarding
+        - item: Painting
           link:
 
+        - item: Discovering new places
+          link:
+          
         - item: Cooking
           link:
 
+
 career-profile:
-    title: Career Profile
-    summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+    title: 
+    summary: 
 education:
     title: Education
     info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
+      - degree: Master in product design
+        university: Media & design academie Gen
+        time: 2004 - 2009
+        details:
+      - degree: Webdevelopment
+        university: Syntra Limburg
+        time: 2014 - 2015
+        details:
+      - degree: Specific Teacher Training
+        university: CVOLimlo
+        time: 2009 - 2010
+        details:
 experiences:
     title: Experiences
     info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
+      - role: Software developer
+        time: 2020 - Present
+        company: Car-Systems B.V. / LKQ
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
+          Car-Systems has more than 20 years of experience in automating garage businesses. 
+          Car-Systems was created in the owner's workshop, literally on the shop floor. 
+          This means that the software fits the daily routine of the workshop.
             - Bullet point
       - role: Senior Software Engineer
         time: 2014 - 2015
@@ -113,9 +94,12 @@ experiences:
           adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
           Cum sociis natoque penatibus et magnis dis parturient montes,
           nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          pellentesque eu, pretium quis, sem.   
+          At CarSys, I am working on the development of a Garage Management System that enables garages to easily manage everything from appointment management 
+          and planning to ordering parts and invoicing via one online tool. The first big project I was asked to do here together with two other developers was 
+          the development of a time registration tool, where employees can book their hours and you have a clear overview of who is doing what. The second project 
+          I am currently working on together with a backend developer is an integration with ROB, where work cards can be sent directly to the leasing company 
+          and can also be processed in sync.          
       - role: UI Developer
         time: 2012 - 2014
         company: Amazon, London
