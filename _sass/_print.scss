@@ -8,13 +8,45 @@
     }
 
     img.avatar {
-      display: none;
+      height: 120px;
+      max-width: 100px;
+      width: auto;
+      -webkit-print-color-adjust: exact;
+      margin-bottom: 0 !important;
     }
 
+  .profile-container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 5px;
+    background-color: #42A8C0 !important;
+    .group-title{
+      flex-grow:1;
+      text-align: center;
+    }
+  }
+
+  .flex-box{
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .main-wrapper .section-title{
+    color: #2d7788;
+    -webkit-print-color-adjust: exact;
+  }
     .sidebar-wrapper {
-        position: static;
-        width: 100%;
-        -webkit-print-color-adjust: exact; 
+        margin-left: 12px;
+        -webkit-print-color-adjust: exact;
+      .container-block{
+        padding: 15px 30px;
+      }
+      .interests-list{
+        li{
+          margin-bottom: 1px;
+        }
+      }
     }
 
     .remove-container.container-block {
@@ -26,8 +58,8 @@
     }
 
     .skillset .level-bar-inner {
-       background-color: black !important;
-       -webkit-print-color-adjust: exact; 
+       background-color: #2d7788 !important;
+       -webkit-print-color-adjust: exact;
     }
 
    .fa-inverse,
@@ -40,11 +72,15 @@
     grid-column: span 12;
   }
 
+  .main-wrapper .section.experiences-section {
+      margin-top: 10px !important;
+  }
+
+
   .sidebar-wrapper {
     grid-column: span 12;
     .container-block{
       width: 50%;
-      float:left;
       padding: 15px 30px;
       &.contact{
         width: 100%;
