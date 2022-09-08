@@ -13,6 +13,16 @@
     </li>
     {% endif %}
 
+    {% if sidebar.address %}
+    <li class="address"><i class="fas fa-map-marker"></i>
+      {% if sidebar.google-maps-key %}
+      <a href="https://goo.gl/maps/{{ sidebar.google-maps-key }}" target="_blank">{{ sidebar.address }}</a>
+      {% else %}
+      {{ sidebar.address }}
+      {% endif %}
+    </li>
+    {% endif %}
+
     {% if sidebar.website %}
     <li class="website"><i class="fas fa-globe-americas"></i>
       <a href="http://{{ sidebar.website }}" target="_blank">{{ sidebar.website }}</a>
