@@ -69,7 +69,7 @@
    }
 
   .main-wrapper {
-    grid-column: span 12;
+    grid-column: span 8;
   }
 
   .main-wrapper .section.experiences-section {
@@ -78,7 +78,8 @@
 
 
   .sidebar-wrapper {
-    grid-column: span 12;
+    grid-column: span 4;
+    order: 2;
     .container-block{
       width: 50%;
       padding: 15px 30px;

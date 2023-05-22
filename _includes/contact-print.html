@@ -1,0 +1,53 @@
+<div class="contact-container container-block contact">
+  <ul class="list-unstyled contact-list">
+
+    {% if sidebar.email %}
+    <li><i class="fas fa-envelope"></i>
+      {{ sidebar.email }}
+    </li>
+    {% endif %}
+
+    {% if sidebar.address %}
+    <li class="address"><i class="fas fa-map-marker"></i>
+      {{ sidebar.address }}
+    </li>
+    {% endif %}
+
+    {% if sidebar.phone %}
+    <li class="phone"><i class="fas fa-phone"></i>
+      {{ sidebar.phone }}
+    </li>
+    {% endif %}
+
+    {% if sidebar.website %}
+    <li class="website"><i class="fas fa-globe-americas"></i>
+      {{ sidebar.website }}
+    </li>
+    {% endif %}
+
+    {% if sidebar.linkedin %}
+    <li class="linkedin"><i class="fab fa-linkedin"></i>
+      {{ sidebar.linkedin }}
+    </li>
+    {% endif %}
+
+    {% if sidebar.github %}
+    <li class="github"><i class="fab fa-github"></i>
+      {{ sidebar.github }}
+    </li>
+    {% endif %}
+
+    {% if sidebar.gitlab %}
+    <li class="gitlab"><i class="fab fa-gitlab"></i>
+      {{ sidebar.gitlab }}
+    </li>
+    {% endif %}
+
+    {% if sidebar.stack-overflow %}
+    <li class="stack-overflow"><i class="fab fa-stack-overflow"></i>
+      <{{ sidebar.stack-overflow }}
+    </li>
+    {% endif %}
+
+  </ul>
+</div><!--//contact-container-->
