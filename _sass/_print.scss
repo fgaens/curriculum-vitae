@@ -6,6 +6,9 @@
     body {
        font-size: 12pt;
     }
+  .experiences-section .item:nth-child(5) {
+    margin-top: 200px;
+  }
 }
 
 .print-wrapper {
@@ -56,11 +59,15 @@
     }
   }
   .wrapper {
-    display: flex;
+    display: block;
+    background-color: white;
   }
   .sidebar-wrapper{
     width: 33.33%;
     background: #42A8C0 !important;
+    float: right;
+    height: 915px;
+    margin-left: 15px;
     .container-block {
       padding: 30px 15px 12px;
     }
@@ -75,9 +82,8 @@
       color: rgba(255,255,255,0.6) !important;
     }
   }
-
   .main-wrapper{
-    width: 66.66%;
+    width: 100%;
     h2.section-title{
       color: #2d7788 !important;
       .fas:not(.fa-circle)::before {
@@ -86,6 +92,41 @@
       .fas::before {
         color: #2d7788 !important;
       }
+    }
+    h3.job-title {
+      font-size: 18px;
+      display: inline-block;
+    }
+    .time {
+      display: inline-block;
+      float: right;
+    }
+    .company, .time{
+      font-size: 14px;
+      color: #97AAC3 !important;
+    }
+    p, li {
+      font-size: 12px;
+    }
+    .experiences-section h3.level-title {
+      font-size: 12px;
+    }
+  }
+  .skillset{
+    .item{
+      margin-bottom: 0;
+    }
+    .level-title{
+      width: 25%;
+      display: inline-block;
+    }
+    .level-bar {
+      background: #f5f5f5 !important;
+      width: 74%;
+      display: inline-block;
+    }
+    .level-bar-inner {
+      background: #7bc2d3 !important;
     }
   }
 }
