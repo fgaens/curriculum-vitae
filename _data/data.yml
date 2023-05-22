@@ -72,11 +72,11 @@ experiences:
         time: 02/2023 – present
         company: Cegeka  - consultant for Merapar
         details: |
-          For Cegeka and the Flemish government, I am currently working on an e-portal for persons under electronic monitoring. 
+          For Cegeka and the Flemish government, I am currently working on an e-portal for people under electronic monitoring. 
           In doing so, this e-portal functions as a self-service counter where these people can consult the status of activities in their file, 
           look up information about their electronic monitoring and complete administrative tasks themselves (e.g. management of timetable, personal information), 
           thereby relieving the VCET staff of the burden and allowing them to focus more on value-added interactions with people under electronic monitoring. 
-          My task is to work out the frontend for this portal as well as help develop the UI/UX for this portal.
+          My task is to work out the frontend for this portal as well as help create the UI/UX.
         tasks: |
           VCET e-portal
             - UI/UX
