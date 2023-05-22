@@ -233,9 +233,12 @@ skills:
 
     toolset:
       - name: React (typescript)
-        level: 80%
+        level: 85%
 
       - name: Angular (typescript)
+        level: 75%
+
+      - name: Vue.js (typescript)
         level: 75%
 
       - name: PHP
