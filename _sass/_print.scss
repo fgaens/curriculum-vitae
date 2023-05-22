@@ -9,6 +9,9 @@
   .experiences-section .item:nth-child(5) {
     margin-top: 200px;
   }
+  .print-wrapper .source-wrapper{
+    margin-bottom: 145px;
+  }
 }
 
 .print-wrapper {
@@ -128,5 +131,8 @@
     .level-bar-inner {
       background: #7bc2d3 !important;
     }
+  }
+  .source-wrapper{
+    margin-bottom: 50px;
   }
 }
