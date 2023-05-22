@@ -9,33 +9,83 @@
 }
 
 .print-wrapper {
+  background-color: white;
+  -webkit-print-color-adjust: exact;
   .header-wrapper{
     grid-column: span 12;
     order: 0;
-  }
-  .profile-container{
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    padding: 5px;
-    .group-title{
-      flex-grow:1;
-      text-align: center;
-      background-color: #368699;
-      font-size: 14px;
-      margin-top: 20px;
+    .profile-container{
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      padding: 5px;
+      .group-title{
+        flex-grow:1;
+        text-align: center;
+        background-color: #368699 !important;
+        font-size: 14px;
+        margin-top: 20px;
+        margin-bottom: 32px;
+        h1{
+          font-size: 20px;
+          font-weight: normal;
+          color: white !important;
+          margin-bottom: 0;
+          margin-top: 10px;
+        }
+        h3.tagline {
+          color: rgba(255,255,255,0.6) !important;
+          font-size: 16px;
+          font-weight: 400;
+          margin-top: 0;
+          margin-bottom: 10px;
+        }
+      }
+      img.avatar {
+        height: 120px;
+        width: auto;
+        -webkit-print-color-adjust: exact;
+        margin-bottom: 0 !important;
+        vertical-align: middle;
+        border-radius: 50%;
+        position: absolute;
+        border: 2px solid #368699;
+        top: 0;
+        left: 24px;
+      }
     }
-    img.avatar {
-      height: 120px;
-      width: auto;
-      -webkit-print-color-adjust: exact;
-      margin-bottom: 0 !important;
-      vertical-align: middle;
-      border-radius: 50%;
-      position: absolute;
-      border: 2px solid #368699;
-      top: 0;
-      left: 24px;
+  }
+  .wrapper {
+    display: flex;
+  }
+  .sidebar-wrapper{
+    width: 33.33%;
+    background: #42A8C0 !important;
+    .container-block {
+      padding: 30px 15px 12px;
+    }
+    h2.container-block-title, h4, h5, li {
+      color: white !important;
+    }
+    li{
+      font-size: 14px;
+      margin-bottom: 2px !important;
+    }
+    span.lang-desc, .time {
+      color: rgba(255,255,255,0.6) !important;
+    }
+  }
+
+  .main-wrapper{
+    width: 66.66%;
+    h2.section-title{
+      color: #2d7788 !important;
+      .fas:not(.fa-circle)::before {
+        color: white !important;
+      }
+      .fas::before {
+        color: #2d7788 !important;
+      }
     }
   }
 }
