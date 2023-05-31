@@ -76,14 +76,13 @@ experiences:
           In doing so, this e-portal functions as a self-service counter where these people can consult the status of activities in their file, 
           look up information about their electronic monitoring and complete administrative tasks themselves (e.g. management of timetable, personal information), 
           thereby relieving the VCET staff of the burden and allowing them to focus more on value-added interactions with people under electronic monitoring. 
-          My task is to work out the frontend for this portal as well as help create the UI/UX.
+          My task is to work out the frontend for this portal.
         tasks: |
           VCET e-portal
-            - UI/UX
-            - Setting up a new frontend application in vue
+            - Setting up a new frontend application in Angular
             - Frontend development
         environments: |
-          Vue.js, Typescript, Java, PostgreSQL, Atlassian
+          Angular, Typescript, Java, PostgreSQL, Atlassian
 
       - role: Software developer
         time: 11/2020 - 04/2023
