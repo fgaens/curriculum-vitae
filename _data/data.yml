@@ -76,11 +76,18 @@ experiences:
           In doing so, this e-portal functions as a self-service counter where these people can consult the status of activities in their file, 
           look up information about their electronic monitoring and complete administrative tasks themselves (e.g. management of timetable, personal information), 
           thereby relieving the VCET staff of the burden and allowing them to focus more on value-added interactions with people under electronic monitoring. 
-          My task is to work out the frontend for this portal.
+          My task is to work out the frontend for this portal. 
+          In addition to developing the portal, I am lead/owner of an overlapping project where we are styling primeng components so that they are similar to the VO web components written in Vue. 
+          This library is accessible through an npm registry.
         tasks: |
           VCET e-portal
             - Setting up a new frontend application in Angular
             - Frontend development
+            - OAuth2
+            - WEBIDM/ACM integration
+            - Creating an Angular library
+            - Styling Primeng components
+            - Create custom components based on Primeng
         environments: |
           Angular, Typescript, Java, PostgreSQL, Atlassian
 
@@ -150,7 +157,7 @@ experiences:
         environments: |
           PHP, Node, React, Html, Sass, Webpack, Confluence, Jira, Gitlab, Bitbucket, Kubernetes, Helm
 
-      - role: Front-end developer
+      - role: Full-stack developer
         time: 01/2019 – 07/2019
         company: Unilogic  - consultant for Assign
         details: |
