@@ -99,11 +99,11 @@ experiences:
         details: |
           Car-Systems B.V. is a software development company that provides a "one stop" solution for garages. 
           
-          At CarSys, I am working on the development of a Garage Management System that enables garages to easily manage everything from appointment and planning 
-          to ordering parts and invoicing via one online tool. The first big project I was asked to do here together with two other developers was the development of a time 
-          registration tool, where employees can book their hours and you have a clear overview of who is doing what. 
+          At CarSys, I worked on the development of a Garage Management System that enables garages to easily manage everything from appointment and planning 
+          to ordering parts and invoicing through one online tool. The first big project I was asked to do, together with two other developers, was the development of a time 
+          registration tool, where employees can book their hours so you get a clear overview of who is doing what and when. 
           The second project I was working on together with a backend developer is an integration with ROB, where work orders can be sent directly to a leasing company and 
-          can also be processed in sync. At the moment we're upgrading the frontend tool to mui5 and implementing new features.
+          can also be processed in sync. We also upgraded the frontend tool (GMS) to mui5 and implemented new features.
         tasks: |
           Time registration module:
             - UI/UX
