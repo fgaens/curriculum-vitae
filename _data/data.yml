@@ -98,12 +98,11 @@ experiences:
         company: Car-Systems B.V. / LKQ  - consultant for Assign
         details: |
           Car-Systems B.V. is a software development company that provides a "one stop" solution for garages. 
-          
           At CarSys, I worked on the development of a Garage Management System that enables garages to easily manage everything from appointment and planning 
           to ordering parts and invoicing through one online tool. The first big project I was asked to do, together with two other developers, was the development of a time 
-          registration tool, where employees can book their hours so you get a clear overview of who is doing what and when. 
+          registration tool, where employees can book their hours so they get a clear overview of who is doing what and when. 
           The second project I was working on together with a backend developer is an integration with ROB, where work orders can be sent directly to a leasing company and 
-          can also be processed in sync. We also upgraded the frontend tool (GMS) to mui5 and implemented new features.
+          can also be processed in sync. In addition to these two projects I also worked on the existing platform (GMS), upgrading it to mui5 and implemented new features.
         tasks: |
           Time registration module:
             - UI/UX
@@ -123,6 +122,7 @@ experiences:
             - Set up React modules as generically as possible because in addition to ROB, other leasing companies will be integrated
           
           GMS:
+            - UI/UX
             - Convert Navigation to Material UI
             - Make additional purchases possible for different vehicles at once
             - Add Storybook
