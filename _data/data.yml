@@ -81,17 +81,17 @@ experiences:
           This library is accessible through an npm registry.
         tasks: |
           VCET e-portal
-            - Setting up a new frontend application in Angular
+            - Create a new frontend application in Angular
             - Frontend development
             - OAuth2
             - WEBIDM/ACM integration
           
           AJH VO components
-            - Creating an Angular library
+            - Create an Angular library
             - Styling Primeng components
             - Create custom components based on Primeng
         environments: |
-          Angular, Typescript, Java, PostgreSQL, Atlassian
+          Angular, Typescript, Java, PostgresSQL, Atlassian
 
       - role: Software developer
         time: 11/2020 - 04/2023
@@ -107,7 +107,7 @@ experiences:
         tasks: |
           Time registration module:
             - UI/UX
-            - Setting up a new frontend application in react
+            - Create a new frontend application in react
             - Fetching via React Query
             - Frontend development   
 
