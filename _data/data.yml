@@ -91,7 +91,7 @@ experiences:
             - Styling Primeng components
             - Create custom components based on Primeng
         environments: |
-          Angular, Typescript, Java, PostgresSQL, Atlassian
+          Angular, Typescript, Java, PostgreSQL, Atlassian
 
       - role: Software developer
         time: 11/2020 - 04/2023
