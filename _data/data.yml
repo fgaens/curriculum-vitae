@@ -72,12 +72,12 @@ experiences:
         time: 02/2023 – present
         company: Vlaamse overheid  - consultant for Merapar
         details: |
-          For the Flemish government, I'm currently working on an e-portal for people under electronic monitoring. 
-          In doing so, this e-portal functions as a self-service counter where these people can consult the status of activities in their file, 
-          look up information about their electronic monitoring and complete administrative tasks themselves (e.g. management of timetable, personal information), 
-          thereby relieving the VCET staff of the burden and allowing them to focus more on value-added interactions with people under electronic monitoring. 
-          My task is to work out the frontend for this portal. 
-          In addition to developing the portal, I am lead/owner of an overlapping project where we are styling primeng components so that they are similar to the VO web components written in Vue. 
+          For the Flemish government, I'm currently working on an e-portal for people being subjected to electronic monitoring. 
+          In doing so, this e-portal functions as a self-service counter where people can consult the status of activities in their file, 
+          view information about their electronic monitoring and complete administrative tasks themselves (e.g. management of their work schedule, personal information), 
+          thereby relieving the VCET staff of the burden and allowing them to focus on more value-added interactions with people subjected to EM. 
+          My task is to create the frontend for this e-portal. 
+          In addition to developing the portal, I am lead/owner of an overlapping project where we are styling Primeng components so that they are similar to the VO web components written in Vue. 
           This library is accessible through an npm registry.
         tasks: |
           VCET e-portal
