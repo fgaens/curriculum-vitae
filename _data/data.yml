@@ -121,7 +121,7 @@ experiences:
           - Implementation / testing
         projects: |
           - Modernizing monolith: An outdated Java 8 Spring monolith hosted on a local cloud provider was migrated to Spring 5 and Java 11, now running on AWS ECS.
-          - Spits integration: For a major client seeking to replace their existing software with ours, we implemented an integration strategy that enabled a phased and smooth transition. Given the limitations of their system, we had to create adapters, implement transformations, and conduct batch processing. To preserve the integrity of our system and data, we dedicated significant time to rigorous data validation. This meticulous validation process was crucial to prevent any compromise to our system or data integrity during the integration phase.
+          - Spits integration: For a major client seeking to replace their existing software with ours, we implemented an integration strategy that enabled a phased and smooth transition. Given the limitations of their system, we had to create adapters, implement transformations, and conduct batch processing.To preserve the integrity of our system and data, we dedicated significant time to rigorous data validation. This meticulous validation process was crucial to prevent any compromise to our system or data integrity during the integration phase.
           - SFA 2.0: One of the major undertakings involved migrating the previously modernized monolith into a microservice architecture. This encompassed defining logical boundaries, devising a migration strategy, coordinating among various stakeholders, implementing the plan, and conducting testing.
 
         environments: |
@@ -135,15 +135,23 @@ experiences:
       - role: Software developer
         time: 2016 - 2019
         company: DKV - Consultant for Assign NV
-        details: |
-          During my tenure at DKV as a Medior Software Developer in the Claims team, I played a crucial role in enhancing the efficiency of applications utilized for automated insurance claim processing and reimbursements. A key focus of our work revolved around optimizing scalability and bolstering the systems to seamlessly handle increased request volumes. Through meticulous analysis and implementation of robust solutions, we successfully fortified the services to accommodate greater loads, thereby ensuring streamlined operations and improved customer experience.
+        details:
         tasks: |
-          - Design and implementation of features
-          - Troubleshoot issues
-          - Analyse bug reports
-        projects:
+          - Scrum master
+          - Technical analysis
+          - Implementation / testing
+        projects: |
+          - e-billing migration: Because of the need to incorporate additional functionality into our e-billing application, I had to transition the current Weblogic solution to a J2EE application. The e-billing platform serves as an automated validation platform for hospital-to-insurance company claims.
+          - claims segmentation: Because of the substantial volume of claims processed daily, I devised an algorithm that autonomously identifies and approves specific claims meeting certain criteria, reducing the necessity for extensive validation before payment.
+          - Assurpharma: Our team had a significant responsibility overseeing Assurpharma, a substantial service aimed at automatically managing all outpatient expenses incurred through an AssurPharma card. Its functions encompassed synchronizing data and conducting batch processing for transactions.
+          - EVVplus: Our team also shouldered the responsibility of EVVplus, an acronym for Enrichment, Validation, and Verification. This component formed a significant part of the autonomous claim processing environment, entrusted with validating claims, ensuring compliance with all stipulated rules for reimbursing individuals, and generating reimbursement events. A primary focus for us was managing the ever-growing system load, which urged us to implement measures to enhance the system's capacity.
+
         environments: |
-          Java, J2EE, Rest API's, Git, Jenkins, ESB, SQL
+          - Java
+          - J2EE
+          - Jenkins
+          - ESB
+          - MSSQL
 
       - role: Software developer
         time: 2012 - 2016
