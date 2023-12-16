@@ -66,7 +66,7 @@ experiences:
     info:
       - role: Software developer
         time: 2022 - now
-        company: Engie Digital
+        company: Engie Digital - Freelance
         details:
         tasks: |
           - Architecture design
@@ -83,21 +83,56 @@ experiences:
           - Springboot, Micronaut
           - AWS, ECS, EC2, Fargate, SNS, SQS, Kinesis, ECR
           - MongoDB
-          - Jenkins, Github Actions, Octopus Deploy
+          - Jenkins, Github Actions, Octopus Deploy, Terraform
 
       - role: Software developer / Team lead
-        time: 2020 - 2022
-        company: Evonik
-        details: |
-          During my tenure at Evonik, I assumed the role of Team Lead for the Backend team, where I split my time evenly between development and team leadership responsibilities. A significant project we undertook was the migration of an antiquated monolithic API to a modern microservice architecture, aligning it with future needs and industry standards. This transformation enabled enhanced scalability, modularity, and flexibility. Additionally, we successfully integrated various third-party services for planning and formula optimizations, fostering seamless collaborations and bolstering overall operational efficiency. Through diligent coordination and technical expertise, our team achieved impactful outcomes in driving system modernization and optimizing external service integrations.
+        time: 2021 - 2022
+        company: Evonik - Freelance
+        details:
         tasks: |
-          - Oversaw project management, ensuring the team adhered to deadlines and milestones, maintaining a structured workflow to achieve project goals promptly.
-          - Led and managed a team of eight backend developers, fostering a collaborative and productive environment to maximize output and quality of work.
-          - Managed, analyzed, and executed integrations of third-party APIs, leveraging external services effectively to enhance the project's functionalities and capabilities.
-          - Took charge of modernizing backend systems, initiating and implementing updates and improvements to ensure the systems were up-to-date with current technologies and industry standards.
-        projects:
+          - Project management
+          - Team management
+          - Scrum master
+          - Architecture design
+          - Technical analysis
+          - Implementation / testing
+        projects: |
+          - Agistics integration:
+          - Spits integration:
+          - Authentication and Authorization system:
+          - SFA 2.0:
         environments: |
-          Java, Springboot, Spring, Quarkus, AWS, MongoDB, JavaScript, Python
+          - Java, Python, Javascript
+          - Springboot, Quarkus
+          - AWS, ECS, EKS, SNS, SQS, Cognito
+          - Keycloak
+          - MongoDB, Postgres
+          - Jenkins
+
+      - role: Software developer / Team lead
+        time: 2020 - 2021
+        company: Evonik
+        details:
+        tasks: |
+          - Project management
+          - Team management
+          - Scrum master
+          - Architecture design
+          - Technical analysis
+          - Implementation / testing
+        projects: |
+          - Modernizing monolith: An outdated Java 8 Spring monolith hosted on a local cloud provider was migrated to Spring 5 and Java 11, now running on AWS ECS.
+          - Agistics integration:
+          - Spits integration:
+          - Authentication and Authorization system:
+          - SFA 2.0:
+        environments: |
+          - Java, Python, Javascript
+          - Spring, Springboot, Quarkus
+          - AWS, ECS, EKS, SNS, SQS, Cognito
+          - Keycloak
+          - MongoDB, Postgres
+          - Jenkins
 
       - role: Software developer
         time: 2016 - 2019
