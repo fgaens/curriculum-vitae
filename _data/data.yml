@@ -68,10 +68,22 @@ experiences:
         time: 2022 - now
         company: Engie Digital
         details:
-        tasks:
-        projects:
+        tasks: |
+          - Architecture design
+          - Technical analysis
+          - Implementation / testing
+          - CI/ CD
+          - Infrastructure
+        projects: |
+          - CI/CD migration: I took charge of transferring our Jenkins pipelines to Github Action and Octopus Deploy. Due to the excessive complexity of the Jenkins pipelines, which were overly specific and not easily reusable, it demanded extensive analysis and configuration adjustments in our services to consolidate them into fewer, more efficient pipelines.
+          - Modernizing backend landscape: Collectively, our team undertook the responsibility of upgrading the backend stack, transitioning from Java 11 to Java 17/21. Additionally, we managed the upgrades for our Spring Boot and Micronaut projects while handling the dependency updates across more than 60 services.
+          - Energy module: Collaborating with a team member, we developed the Energy module. Its purpose was to receive meter data, store it, perform transformations, calculate diverse consumption metrics, identify anomalies, and subsequently activate various events and notifications based on those detections.
         environments: |
-          Java, Springboot, Micronaut, AWS, MongoDB, Jenkins, Github Actions, Git, Octopu Deploy
+          - Java
+          - Springboot, Micronaut
+          - AWS, ECS, EC2, Fargate, SNS, SQS, Kinesis, ECR
+          - MongoDB
+          - Jenkins, Github Actions, Octopus Deploy
 
       - role: Software developer / Team lead
         time: 2020 - 2022
