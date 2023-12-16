@@ -156,15 +156,15 @@ experiences:
       - role: Software developer
         time: 2012 - 2016
         company: Google Belgium
-        details: |
-          During my tenure at Google Belgium as a junior team member fresh out of school, I had the privilege of contributing to several in-house projects. My primary responsibilities centered around working on aspects of the company's infrastructure, particularly focusing on the development and enhancement of internal tools and systems.
+        details:
+          My responsibilities included delving into incidents and effectively applying fixes for several internal applications, ensuring their smooth functionality. Investigating issues and implementing practical solutions constituted a crucial part of my tasks within the team's operational scope.
         tasks: |
-          - Design and implementation of features
-          - Troubleshoot issues
-          - Analyse bug reports
+          - Implementation / testing
         projects:
         environments: |
-          Java, Python, Jenkins, Git
+          - Java, Python
+          - GCP
+          - Jenkins
 
 skills:
     title: Skills &amp; Proficiency
