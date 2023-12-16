@@ -97,10 +97,9 @@ experiences:
           - Technical analysis
           - Implementation / testing
         projects: |
-          - Agistics integration:
-          - Spits integration:
-          - Authentication and Authorization system:
-          - SFA 2.0:
+          - Agistics integration: I oversaw the transition from an in-house custom logistics system to a third-party logistics provider. My responsibilities included managing project deadlines, collecting requirements, executing the integration, and conducting testing.
+          - SFA 2.0: One of the major undertakings involved migrating the previously modernized monolith into a microservice architecture. This encompassed defining logical boundaries, devising a migration strategy, coordinating among various stakeholders, implementing the plan, and conducting testing.
+          - Authentication and Authorization system: Due to the requirement for a highly adaptable and flexible authorization system, our decision was to construct a custom solution. Drawing inspiration from AWS policy files, we developed a unique multi-tenant authorization system that offers extensive flexibility.
         environments: |
           - Java, Python, Javascript
           - Springboot, Quarkus
@@ -122,10 +121,9 @@ experiences:
           - Implementation / testing
         projects: |
           - Modernizing monolith: An outdated Java 8 Spring monolith hosted on a local cloud provider was migrated to Spring 5 and Java 11, now running on AWS ECS.
-          - Agistics integration:
-          - Spits integration:
-          - Authentication and Authorization system:
-          - SFA 2.0:
+          - Spits integration: For a major client seeking to replace their existing software with ours, we implemented an integration strategy that enabled a phased and smooth transition. Given the limitations of their system, we had to create adapters, implement transformations, and conduct batch processing. To preserve the integrity of our system and data, we dedicated significant time to rigorous data validation. This meticulous validation process was crucial to prevent any compromise to our system or data integrity during the integration phase.
+          - SFA 2.0: One of the major undertakings involved migrating the previously modernized monolith into a microservice architecture. This encompassed defining logical boundaries, devising a migration strategy, coordinating among various stakeholders, implementing the plan, and conducting testing.
+
         environments: |
           - Java, Python, Javascript
           - Spring, Springboot, Quarkus
