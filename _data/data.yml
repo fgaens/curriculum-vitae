@@ -1,0 +1,168 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+    about: false # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: True # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: Frederick Gaens
+    tagline: Passionate software developer
+    avatar: profile_100_100.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    email: frederick@codesolutions.be
+    phone: +32489 93 05 79
+    linkedin: frederick-gaens-810163142
+    github:
+    gitlab:
+    bitbucket:
+    stack-overflow:
+    address: Plankenbergstraat, Bilzen
+    google-maps-key: BvLvjbQ4SmRoDKwM8
+
+    languages:
+      title: Languages
+      info:
+        - idiom: Dutch
+          level: Native
+
+        - idiom: English
+          level: Professional working proficiency
+
+        - idiom: French
+          level: Limited working proficiency
+
+    interests:
+      title: Interests
+      info:
+        - item: Software development
+          link:
+
+        - item: Home automation
+          link:
+
+        - item: Reading books
+          link:
+          
+        - item: Building Lego
+          link:
+
+
+education:
+    title: Education
+    info:
+      - degree: Bachelor in applied computer science
+        university: Xios Hogeschool Limburg
+        time: 2009 - 2012
+        details:
+      - degree: SpringSource Core Spring developer
+        university: Oak3 academie
+        time: 2018
+        details:
+experiences:
+    title: Experiences
+    info:
+      - role: Software developer
+        time: 2022 - now
+        company: Engie Digital - Freelance
+        details:
+        tasks: |
+          - Architecture design
+          - Technical analysis
+          - Implementation / testing
+          - CI/ CD
+          - Infrastructure
+        projects: |
+          - CI/CD migration: I took charge of transferring our Jenkins pipelines to Github Action and Octopus Deploy. Due to the excessive complexity of the Jenkins pipelines, which were overly specific and not easily reusable, it demanded extensive analysis and configuration adjustments in our services to consolidate them into fewer, more efficient pipelines.
+          - Modernizing backend landscape: Collectively, our team undertook the responsibility of upgrading the backend stack, transitioning from Java 11 to Java 17/21. Additionally, we managed the upgrades for our Spring Boot and Micronaut projects while handling the dependency updates across more than 60 services.
+          - Energy module: Collaborating with a team member, we developed the Energy module. Its purpose was to receive meter data, store it, perform transformations, calculate diverse consumption metrics, identify anomalies, and subsequently activate various events and notifications based on those detections.
+        environments: |
+          - Java
+          - Springboot, Micronaut
+          - AWS, ECS, EC2, Fargate, SNS, SQS, Kinesis, ECR
+          - MongoDB
+          - Jenkins, Github Actions, Octopus Deploy, Terraform
+
+      - role: Software developer / Team lead
+        time: 2021 - 2022
+        company: Evonik - Freelance
+        details:
+        tasks: |
+          - Project management
+          - Team management
+          - Scrum master
+          - Architecture design
+          - Technical analysis
+          - Implementation / testing
+        projects: |
+          - Agistics integration: I oversaw the transition from an in-house custom logistics system to a third-party logistics provider. My responsibilities included managing project deadlines, collecting requirements, executing the integration, and conducting testing.
+          - SFA 2.0: One of the major undertakings involved migrating the previously modernized monolith into a microservice architecture. This encompassed defining logical boundaries, devising a migration strategy, coordinating among various stakeholders, implementing the plan, and conducting testing.
+          - Authentication and Authorization system: Due to the requirement for a highly adaptable and flexible authorization system, our decision was to construct a custom solution. Drawing inspiration from AWS policy files, we developed a unique multi-tenant authorization system that offers extensive flexibility.
+        environments: |
+          - Java, Python, Javascript
+          - Springboot, Quarkus
+          - AWS, ECS, EKS, SNS, SQS, Cognito
+          - Keycloak
+          - MongoDB, Postgres
+          - Jenkins
+
+      - role: Software developer / Team lead
+        time: 2020 - 2021
+        company: Evonik
+        details:
+        tasks: |
+          - Project management
+          - Team management
+          - Scrum master
+          - Architecture design
+          - Technical analysis
+          - Implementation / testing
+        projects: |
+          - Modernizing monolith: An outdated Java 8 Spring monolith hosted on a local cloud provider was migrated to Spring 5 and Java 11, now running on AWS ECS.
+          - Spits integration: For a major client seeking to replace their existing software with ours, we implemented an integration strategy that enabled a phased and smooth transition. Given the limitations of their system, we had to create adapters, implement transformations, and conduct batch processing.To preserve the integrity of our system and data, we dedicated significant time to rigorous data validation. This meticulous validation process was crucial to prevent any compromise to our system or data integrity during the integration phase.
+          - SFA 2.0: One of the major undertakings involved migrating the previously modernized monolith into a microservice architecture. This encompassed defining logical boundaries, devising a migration strategy, coordinating among various stakeholders, implementing the plan, and conducting testing.
+
+        environments: |
+          - Java, Python, Javascript
+          - Spring, Springboot, Quarkus
+          - AWS, ECS, EKS, SNS, SQS, Cognito
+          - Keycloak
+          - MongoDB, Postgres
+          - Jenkins
+
+      - role: Software developer
+        time: 2016 - 2019
+        company: DKV - Consultant for Assign NV
+        details:
+        tasks: |
+          - Scrum master
+          - Technical analysis
+          - Implementation / testing
+        projects: |
+          - e-billing migration: Because of the need to incorporate additional functionality into our e-billing application, I had to transition the current Weblogic solution to a J2EE application. The e-billing platform serves as an automated validation platform for hospital-to-insurance company claims.
+          - claims segmentation: Because of the substantial volume of claims processed daily, I devised an algorithm that autonomously identifies and approves specific claims meeting certain criteria, reducing the necessity for extensive validation before payment.
+          - Assurpharma: Our team had a significant responsibility overseeing Assurpharma, a substantial service aimed at automatically managing all outpatient expenses incurred through an AssurPharma card. Its functions encompassed synchronizing data and conducting batch processing for transactions.
+          - EVVplus: Our team also shouldered the responsibility of EVVplus, an acronym for Enrichment, Validation, and Verification. This component formed a significant part of the autonomous claim processing environment, entrusted with validating claims, ensuring compliance with all stipulated rules for reimbursing individuals, and generating reimbursement events. A primary focus for us was managing the ever-growing system load, which urged us to implement measures to enhance the system's capacity.
+
+        environments: |
+          - Java, J2EE, ESB
+          - Jenkins
+          - MSSQL
+
+      - role: Software developer
+        time: 2012 - 2016
+        company: Google Belgium
+        details:
+          My responsibilities included delving into incidents and effectively applying fixes for several internal applications, ensuring their smooth functionality. Investigating issues and implementing practical solutions constituted a crucial part of my tasks within the team's operational scope.
+        tasks: |
+          - Implementation / testing
+        projects:
+        environments: |
+          - Java, Python
+          - GCP
+          - Jenkins
+          
+footer: >
+    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>

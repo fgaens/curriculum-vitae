@@ -1,0 +1,53 @@
+<div class="contact-container container-block contact">
+  <ul class="list-unstyled contact-list">
+
+    {% if sidebar.email %}
+    <li>
+      {{ sidebar.email }}
+    </li>
+    {% endif %}
+
+    {% if sidebar.address %}
+    <li class="address">
+      {{ sidebar.address }}
+    </li>
+    {% endif %}
+
+    {% if sidebar.phone %}
+    <li class="phone">
+      {{ sidebar.phone }}
+    </li>
+    {% endif %}
+
+    {% if sidebar.website %}
+    <li class="website">
+      {{ sidebar.website }}
+    </li>
+    {% endif %}
+
+    {% if sidebar.linkedin %}
+    <li class="linkedin">
+      {{ sidebar.linkedin }}
+    </li>
+    {% endif %}
+
+    {% if sidebar.github %}
+    <li class="github">
+      {{ sidebar.github }}
+    </li>
+    {% endif %}
+
+    {% if sidebar.gitlab %}
+    <li class="gitlab">
+      {{ sidebar.gitlab }}
+    </li>
+    {% endif %}
+
+    {% if sidebar.stack-overflow %}
+    <li class="stack-overflow">
+      <{{ sidebar.stack-overflow }}
+    </li>
+    {% endif %}
+
+  </ul>
+</div><!--//contact-container-->
