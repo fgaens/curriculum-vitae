@@ -78,12 +78,17 @@ experiences:
           - CI/CD migration: I took charge of transferring our Jenkins pipelines to Github Action and Octopus Deploy. Due to the excessive complexity of the Jenkins pipelines, which were overly specific and not easily reusable, it demanded extensive analysis and configuration adjustments in our services to consolidate them into fewer, more efficient pipelines.
           - Modernizing backend landscape: Collectively, our team undertook the responsibility of upgrading the backend stack, transitioning from Java 11 to Java 17/21. Additionally, we managed the upgrades for our Spring Boot and Micronaut projects while handling the dependency updates across more than 60 services.
           - Energy module: Collaborating with a team member, we developed the Energy module. Its purpose was to receive meter data, store it, perform transformations, calculate diverse consumption metrics, identify anomalies, and subsequently activate various events and notifications based on those detections.
+          - Rule engine: Development and maintained a custom rule engine. Implemented diverse rule types to accommodate complex business logic, while enhancing the system's bundling capabilities for efficient rule execution. Introduced replay functionality to allow historical data processing and rule validation, ensuring consistent rule execution across different scenarios.
+          - Event System: Enhanced and maintained a comprehensive event processing system responsible for event creation, asset performance calculations, and state derivation. The system processes event chains, computes real-time performance metrics, maintains derived states and triggers targeted notifications.
+          - Document import/export: Developed versatile document processing systems to facilitate bulk operations across multiple asset types. Implemented robust importers and exporters enabling seamless data migration and integration. The system's flexibility allowed for efficient handling of large-scale data transfers while maintaining data integrity and validation requirements, significantly reducing manual data entry and processing time.
+          - Agreement Service: Architected and implemented a contract management system organizing relationships between sites and agencies. Developed functionalities for multi-site agreement linking, milestone tracking, and automated notifications. The system enables automatic agreement generation, manages complex lifecycles through configurable states, and integrates with ticketing systems for renewal workflows, while providing robust notification mechanisms for agreement milestones.
         environments: |
           - Java
           - Springboot, Micronaut
-          - AWS, ECS, EC2, Fargate, SNS, SQS, Kinesis, ECR
+          - AWS, ECS, EC2, Fargate, SNS, SQS, Kinesis, ECR, Cloudwatch, EventBridge, OpenSearch
+          - Okta, Spring Security
           - MongoDB
-          - Jenkins, Github Actions, Octopus Deploy, Terraform
+          - Jenkins, Github Actions, Octopus Deploy, Terraform, Databricks
 
       - role: Software developer / Team lead
         time: 2021 - 2022
