@@ -61,6 +61,14 @@ education:
         university: Oak3 academie
         time: 2018
         details:
+      - degree: TypeScript course
+        university: Udemy
+        time: 2024
+        details:
+      - degree: Angular course
+        university: Udemy
+        time: 2024
+        details:
 experiences:
     title: Experiences
     info:
