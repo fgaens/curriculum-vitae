@@ -172,10 +172,8 @@ experiences:
 non-professional-experiences:
   title: non-professional experiences
   info:
-    - role: Software developer
+    - name: Homii - Scheduler
       time: 2023
-      company: Private project
-      details:
       description: |
         - Developed a user-friendly Angular web application for managing home automation schedules and routines. 
         The application simplifies the creation and maintenance of automated tasks within a home automation system, enabling users to easily configure time-based triggers and conditions.
