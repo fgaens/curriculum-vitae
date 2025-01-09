@@ -61,6 +61,14 @@ education:
         university: Oak3 academie
         time: 2018
         details:
+      - degree: AWS Technical Essentials
+        university: The Knowledge Academy (in-house training)
+        time: 2020
+        details:
+      - degree: AWS Identity And Access Management (IAM)
+        university: The Knowledge Academy (in-house training)
+        time: 2020
+        details:
       - degree: TypeScript course
         university: Udemy
         time: 2024
