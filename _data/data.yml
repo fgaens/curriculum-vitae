@@ -168,6 +168,23 @@ experiences:
           - Java, Python
           - GCP
           - Jenkins
+
+non-professional experiences:
+  title: non-professional experiences
+  info:
+    - role: Software developer
+      time: 2023
+      company: Private project
+      details:
+      description: |
+        - Developed a user-friendly Angular web application for managing home automation schedules and routines. 
+        The application simplifies the creation and maintenance of automated tasks within a home automation system, enabling users to easily configure time-based triggers and conditions.
+      environments: |
+        - TypeScript
+        - Angular
+        - Okta
+        - MongoDB
+        - Github Actions
           
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
