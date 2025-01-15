@@ -203,7 +203,7 @@ non-professional-experiences:
     - name: Investment Calculator
       time: 2025
       description: |
-        - I developed a web-based calculator that predicts the future value of your investments based on your starting amount, monthly contributions, and expected interest rate over your chosen time period.
+        - Developed a web-based investment calculator that predicts the future value of your investments based on your starting amount, monthly contributions, and expected interest rate over your chosen time period.
       environments: |
         - TypeScript
         - Angular   
