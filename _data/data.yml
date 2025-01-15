@@ -199,6 +199,14 @@ non-professional-experiences:
         - Okta
         - MongoDB
         - Github Actions
-          
+        - name: Homii - Scheduler
+    - name: Investment Calculator
+      time: 2025
+      description: |
+        - I developed a web-based calculator that predicts the future value of your investments based on your starting amount, monthly contributions, and expected interest rate over your chosen time period.
+      environments: |
+        - TypeScript
+        - Angular   
+
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
