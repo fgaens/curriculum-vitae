@@ -148,7 +148,7 @@ experiences:
         environments: |
           - Java, Python, Javascript
           - Spring, Springboot, Quarkus
-          - AWS, ECS, EKS, SNS, SQS, Cognito
+          - AWS, ECS, EKS, SNS, SQS, Cognito, Kafka
           - Keycloak
           - MongoDB, Postgres
           - Jenkins
