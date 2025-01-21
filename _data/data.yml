@@ -101,7 +101,7 @@ experiences:
         environments: |
           - Java
           - Springboot, Micronaut
-          - AWS, ECS, EC2, Fargate, SNS, SQS, Kinesis, ECR, Cloudwatch, EventBridge, OpenSearch
+          - AWS, ECS, EC2, Fargate, SNS, SQS, Kinesis, Kafka, ECR, Cloudwatch, EventBridge, OpenSearch
           - Okta, Spring Security
           - MongoDB
           - Jenkins, Github Actions, Octopus Deploy, Terraform, Databricks
@@ -124,7 +124,7 @@ experiences:
         environments: |
           - Java, Python, Javascript
           - Springboot, Quarkus
-          - AWS, ECS, EKS, SNS, SQS, Cognito
+          - AWS, ECS, EKS, SNS, SQS, Cognito, Kafka
           - Keycloak
           - MongoDB, Postgres
           - Jenkins
