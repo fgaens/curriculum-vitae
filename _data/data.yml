@@ -148,7 +148,7 @@ experiences:
           - SFA 2.0: One of the major undertakings involved migrating the previously modernized monolith into a microservice architecture. This encompassed defining logical boundaries, devising a migration strategy, coordinating among various stakeholders, implementing the plan, and conducting testing.
 
         environments: |
-          - Java, Python, Javascript
+          - Java, Python, JavaScript
           - Spring, Springboot, Quarkus
           - AWS, ECS, EKS, SNS, SQS, Cognito, Kafka
           - Keycloak
@@ -172,6 +172,7 @@ experiences:
 
         environments: |
           - Java, J2EE, ESB
+          - Spring, Springboot
           - Jenkins
           - MSSQL
           - Microservice architecture
