@@ -3,192 +3,200 @@
 #
 
 sidebar:
-    about: false # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+  about: false # set to False or comment line if you want to remove the "how to use?" in the sidebar
+  education: True # set to False if you want education in main section instead of in sidebar
 
-    # Profile information
-    name: Frederick Gaens
-    tagline: Passionate software developer
-    avatar: profile_100_100.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+  # Profile information
+  name: Frederick Gaens
+  tagline: Passionate software developer
+  avatar: profile_100_100.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
-    # Sidebar links
-    email: frederick@codesolutions.be
-    phone: +32489 93 05 79
-    linkedin: frederick-gaens-810163142
-    github:
-    gitlab:
-    bitbucket:
-    stack-overflow:
-    address: Plankenbergstraat 38, Munsterbilzen
-    google-maps-key: BvLvjbQ4SmRoDKwM8
+  # Sidebar links
+  email: frederick@codesolutions.be
+  phone: +32489 93 05 79
+  linkedin: frederick-gaens-810163142
+  github:
+  gitlab:
+  bitbucket:
+  stack-overflow:
+  address: Plankenbergstraat 38, Munsterbilzen
+  google-maps-key: BvLvjbQ4SmRoDKwM8
 
-    languages:
-      title: Languages
-      info:
-        - idiom: Dutch
-          level: Native
+  languages:
+    title: Languages
+    info:
+      - idiom: Dutch
+        level: Native
 
-        - idiom: English
-          level: Professional working proficiency
+      - idiom: English
+        level: Professional working proficiency
 
-        - idiom: French
-          level: Limited working proficiency
+      - idiom: French
+        level: Limited working proficiency
 
-    interests:
-      title: Interests
-      info:
-        - item: Software development
-          link:
+  interests:
+    title: Interests
+    info:
+      - item: Software development
+        link:
 
-        - item: Home automation
-          link:
+      - item: Home automation
+        link:
 
-        - item: Reading books
-          link:
-          
-        - item: Building Lego
-          link:
+      - item: Reading books
+        link:
+
+      - item: Building Lego
+        link:
 
 
 education:
-    title: Education
-    info:
-      - degree: Bachelor in applied computer science
-        university: Xios Hogeschool Limburg
-        time: 2009 - 2012
-        details:
-      - degree: SpringSource Core Spring developer
-        university: Oak3 academie
-        time: 2018
-        details:
-      - degree: AWS Technical Essentials
-        university: The Knowledge Academy (in-house training)
-        time: 2020
-        details:
-      - degree: AWS Identity And Access Management (IAM)
-        university: The Knowledge Academy (in-house training)
-        time: 2020
-        details:
-      - degree: TypeScript course
-        university: Udemy
-        time: 2024
-        details:
-      - degree: Angular course
-        university: Udemy
-        time: 2024
-        details:
+  title: Education
+  info:
+    - degree: Bachelor in applied computer science
+      university: Xios Hogeschool Limburg
+      time: 2009 - 2012
+      details:
+    - degree: SpringSource Core Spring developer
+      university: Oak3 academie
+      time: 2018
+      details:
+    - degree: AWS Technical Essentials
+      university: The Knowledge Academy (in-house training)
+      time: 2020
+      details:
+    - degree: AWS Identity And Access Management (IAM)
+      university: The Knowledge Academy (in-house training)
+      time: 2020
+      details:
+    - degree: TypeScript course
+      university: Udemy
+      time: 2024
+      details:
+    - degree: Angular course
+      university: Udemy
+      time: 2024
+      details:
 experiences:
-    title: Experiences
-    info:
-      - role: Software developer / Backend Tech lead
-        time: 2022 - now
-        company: Engie Digital - Freelance
-        details:
-        tasks: |
-          - Architecture design
-          - Technical analysis
-          - Implementation / testing
-          - CI/ CD
-          - Infrastructure
-        projects: |
-          - CI/CD migration: I took charge of transferring our Jenkins pipelines to Github Action and Octopus Deploy. Due to the excessive complexity of the Jenkins pipelines, which were overly specific and not easily reusable, it demanded extensive analysis and configuration adjustments in our services to consolidate them into fewer, more efficient pipelines.
-          - Modernizing backend landscape: Collectively, our team undertook the responsibility of upgrading the backend stack, transitioning from Java 11 to Java 17/21. Additionally, we managed the upgrades for our Spring Boot and Micronaut projects while handling the dependency updates across more than 60 services.
-          - Energy module: Collaborating with a team member, we developed the Energy module. Its purpose was to receive meter data, store it, perform transformations, calculate diverse consumption metrics, identify anomalies, and subsequently activate various events and notifications based on those detections.
-          - Rule engine: Development and maintained a custom rule engine. Implemented diverse rule types to accommodate complex business logic, while enhancing the system's bundling capabilities for efficient rule execution. Introduced replay functionality to allow historical data processing and rule validation, ensuring consistent rule execution across different scenarios.
-          - Event System: Enhanced and maintained a comprehensive event processing system responsible for event creation, asset performance calculations, and state derivation. The system processes event chains, computes real-time performance metrics, maintains derived states and triggers targeted notifications.
-          - Document import/export: Developed versatile document processing systems to facilitate bulk operations across multiple asset types. Implemented robust importers and exporters enabling seamless data migration and integration. The system's flexibility allowed for efficient handling of large-scale data transfers while maintaining data integrity and validation requirements, significantly reducing manual data entry and processing time.
-          - Agreement Service: Architected and implemented a contract management system organizing relationships between sites and agencies. Developed functionalities for multi-site agreement linking, milestone tracking, and automated notifications. The system enables automatic agreement generation, manages complex lifecycles through configurable states, and integrates with ticketing systems for renewal workflows, while providing robust notification mechanisms for agreement milestones.
-        environments: |
-          - Java, JavaScript
-          - Springboot, Micronaut
-          - AWS, ECS, EC2, Fargate, SNS, SQS, Kinesis, Kafka, ECR, Cloudwatch, EventBridge, OpenSearch
-          - Okta, Spring Security
-          - MongoDB
-          - Jenkins, Github Actions, Octopus Deploy, Terraform, Databricks
-          - Microservice architecture, Event-driven architecture
+  title: Experiences
+  info:
+    - role: Software developer / Backend Tech lead
+      time: 2022 - now
+      company: Engie Digital - Freelance
+      details:
+      tasks: |
+        - Architecture design
+        - Technical analysis
+        - Implementation / testing
+        - CI/ CD
+        - Infrastructure
+      projects: |
+        - CI/CD migration: I took charge of transferring our Jenkins pipelines to Github Action and Octopus Deploy. Due to the excessive complexity of the Jenkins pipelines, which were overly specific and not easily reusable, it demanded extensive analysis and configuration adjustments in our services to consolidate them into fewer, more efficient pipelines.
+        - Modernizing backend landscape: Collectively, our team undertook the responsibility of upgrading the backend stack, transitioning from Java 11 to Java 17/21. Additionally, we managed the upgrades for our Spring Boot and Micronaut projects while handling the dependency updates across more than 60 services.
+        - Energy module: Collaborating with a team member, we developed the Energy module. Its purpose was to receive meter data, store it, perform transformations, calculate diverse consumption metrics, identify anomalies, and subsequently activate various events and notifications based on those detections.
+        - Rule engine: Development and maintained a custom rule engine. Implemented diverse rule types to accommodate complex business logic, while enhancing the system's bundling capabilities for efficient rule execution. Introduced replay functionality to allow historical data processing and rule validation, ensuring consistent rule execution across different scenarios.
+        - Event System: Enhanced and maintained a comprehensive event processing system responsible for event creation, asset performance calculations, and state derivation. The system processes event chains, computes real-time performance metrics, maintains derived states and triggers targeted notifications.
+        - Document import/export: Developed versatile document processing systems to facilitate bulk operations across multiple asset types. Implemented robust importers and exporters enabling seamless data migration and integration. The system's flexibility allowed for efficient handling of large-scale data transfers while maintaining data integrity and validation requirements, significantly reducing manual data entry and processing time.
+        - Agreement Service: Architected and implemented a contract management system organizing relationships between sites and agencies. Developed functionalities for multi-site agreement linking, milestone tracking, and automated notifications. The system enables automatic agreement generation, manages complex lifecycles through configurable states, and integrates with ticketing systems for renewal workflows, while providing robust notification mechanisms for agreement milestones.
+      environments: |
+        - Java, JavaScript
+        - Springboot, Micronaut
+        - AWS, ECS, EC2, Fargate, SNS, SQS, Kinesis, Kafka, ECR, Cloudwatch, EventBridge, OpenSearch
+        - Okta, Spring Security
+        - MongoDB
+        - Jenkins, Github Actions, Octopus Deploy, Terraform, Databricks
+        - Microservice architecture, Event-driven architecture
+        - REST
+        - JSON, XML
 
-      - role: Software developer / Team lead / Tech lead
-        time: 2021 - 2022
-        company: Evonik - Freelance
-        details:
-        tasks: |
-          - Project management
-          - Team management
-          - Scrum master
-          - Architecture design
-          - Technical analysis
-          - Implementation / testing
-        projects: |
-          - Agistics integration: I oversaw the transition from an in-house custom logistics system to a third-party logistics provider. My responsibilities included managing project deadlines, collecting requirements, executing the integration, and conducting testing.
-          - SFA 2.0: One of the major undertakings involved migrating the previously modernized monolith into a microservice architecture. This encompassed defining logical boundaries, devising a migration strategy, coordinating among various stakeholders, implementing the plan, and conducting testing.
-          - Authentication and Authorization system: Due to the requirement for a highly adaptable and flexible authorization system, our decision was to construct a custom solution. Drawing inspiration from AWS policy files, we developed a unique multi-tenant authorization system that offers extensive flexibility.
-        environments: |
-          - Java, Python, JavaScript
-          - Springboot, Quarkus
-          - AWS, ECS, EKS, SNS, SQS, Cognito, Kafka
-          - Keycloak
-          - MongoDB, Postgres
-          - Jenkins
-          - Microservice architecture, Event-driven architecture
+    - role: Software developer / Team lead / Tech lead
+      time: 2021 - 2022
+      company: Evonik - Freelance
+      details:
+      tasks: |
+        - Project management
+        - Team management
+        - Scrum master
+        - Architecture design
+        - Technical analysis
+        - Implementation / testing
+      projects: |
+        - Agistics integration: I oversaw the transition from an in-house custom logistics system to a third-party logistics provider. My responsibilities included managing project deadlines, collecting requirements, executing the integration, and conducting testing.
+        - SFA 2.0: One of the major undertakings involved migrating the previously modernized monolith into a microservice architecture. This encompassed defining logical boundaries, devising a migration strategy, coordinating among various stakeholders, implementing the plan, and conducting testing.
+        - Authentication and Authorization system: Due to the requirement for a highly adaptable and flexible authorization system, our decision was to construct a custom solution. Drawing inspiration from AWS policy files, we developed a unique multi-tenant authorization system that offers extensive flexibility.
+      environments: |
+        - Java, Python, JavaScript
+        - Springboot, Quarkus
+        - AWS, ECS, EKS, SNS, SQS, Cognito, Kafka, Kubernetes
+        - Keycloak
+        - MongoDB, Postgres
+        - Jenkins
+        - Microservice architecture, Event-driven architecture
+        - REST
+        - JSON, XML
 
-      - role: Software developer / Team lead / Tech lead
-        time: 2020 - 2021
-        company: Evonik
-        details:
-        tasks: |
-          - Project management
-          - Team management
-          - Scrum master
-          - Architecture design
-          - Technical analysis
-          - Implementation / testing
-        projects: |
-          - Modernizing monolith: An outdated Java 8 Spring monolith hosted on a local cloud provider was migrated to Spring 5 and Java 11, now running on AWS ECS.
-          - Spits integration: For a major client seeking to replace their existing software with ours, we implemented an integration strategy that enabled a phased and smooth transition. Given the limitations of their system, we had to create adapters, implement transformations, and conduct batch processing.To preserve the integrity of our system and data, we dedicated significant time to rigorous data validation. This meticulous validation process was crucial to prevent any compromise to our system or data integrity during the integration phase.
-          - SFA 2.0: One of the major undertakings involved migrating the previously modernized monolith into a microservice architecture. This encompassed defining logical boundaries, devising a migration strategy, coordinating among various stakeholders, implementing the plan, and conducting testing.
+    - role: Software developer / Team lead / Tech lead
+      time: 2020 - 2021
+      company: Evonik
+      details:
+      tasks: |
+        - Project management
+        - Team management
+        - Scrum master
+        - Architecture design
+        - Technical analysis
+        - Implementation / testing
+      projects: |
+        - Modernizing monolith: An outdated Java 8 Spring monolith hosted on a local cloud provider was migrated to Spring 5 and Java 11, now running on AWS ECS.
+        - Spits integration: For a major client seeking to replace their existing software with ours, we implemented an integration strategy that enabled a phased and smooth transition. Given the limitations of their system, we had to create adapters, implement transformations, and conduct batch processing.To preserve the integrity of our system and data, we dedicated significant time to rigorous data validation. This meticulous validation process was crucial to prevent any compromise to our system or data integrity during the integration phase.
+        - SFA 2.0: One of the major undertakings involved migrating the previously modernized monolith into a microservice architecture. This encompassed defining logical boundaries, devising a migration strategy, coordinating among various stakeholders, implementing the plan, and conducting testing.
 
-        environments: |
-          - Java, Python, JavaScript
-          - Spring, Springboot, Quarkus
-          - AWS, ECS, EKS, SNS, SQS, Cognito, Kafka
-          - Keycloak
-          - MongoDB, Postgres
-          - Jenkins
-          - Microservice architecture, Event-driven architecture
+      environments: |
+        - Java, Python, JavaScript
+        - Spring, Springboot, Quarkus
+        - AWS, ECS, EKS, SNS, SQS, Cognito, Kafka, Kubernetes
+        - Keycloak
+        - MongoDB, Postgres
+        - Jenkins
+        - Microservice architecture, Event-driven architecture
+        - REST
+        - JSON, XML
 
-      - role: Software developer
-        time: 2016 - 2019
-        company: DKV - Consultant for Assign NV
-        details:
-        tasks: |
-          - Scrum master
-          - Technical analysis
-          - Implementation / testing
-        projects: |
-          - e-billing migration: Because of the need to incorporate additional functionality into our e-billing application, I had to transition the current Weblogic solution to a J2EE application. The e-billing platform serves as an automated validation platform for hospital-to-insurance company claims.
-          - claims segmentation: Because of the substantial volume of claims processed daily, I devised an algorithm that autonomously identifies and approves specific claims meeting certain criteria, reducing the necessity for extensive validation before payment.
-          - Assurpharma: Our team had a significant responsibility overseeing Assurpharma, a substantial service aimed at automatically managing all outpatient expenses incurred through an AssurPharma card. Its functions encompassed synchronizing data and conducting batch processing for transactions.
-          - EVVplus: Our team also shouldered the responsibility of EVVplus, an acronym for Enrichment, Validation, and Verification. This component formed a significant part of the autonomous claim processing environment, entrusted with validating claims, ensuring compliance with all stipulated rules for reimbursing individuals, and generating reimbursement events. A primary focus for us was managing the ever-growing system load, which urged us to implement measures to enhance the system's capacity.
+    - role: Software developer
+      time: 2016 - 2019
+      company: DKV - Consultant for Assign NV
+      details:
+      tasks: |
+        - Scrum master
+        - Technical analysis
+        - Implementation / testing
+      projects: |
+        - e-billing migration: Because of the need to incorporate additional functionality into our e-billing application, I had to transition the current Weblogic solution to a J2EE application. The e-billing platform serves as an automated validation platform for hospital-to-insurance company claims.
+        - claims segmentation: Because of the substantial volume of claims processed daily, I devised an algorithm that autonomously identifies and approves specific claims meeting certain criteria, reducing the necessity for extensive validation before payment.
+        - Assurpharma: Our team had a significant responsibility overseeing Assurpharma, a substantial service aimed at automatically managing all outpatient expenses incurred through an AssurPharma card. Its functions encompassed synchronizing data and conducting batch processing for transactions.
+        - EVVplus: Our team also shouldered the responsibility of EVVplus, an acronym for Enrichment, Validation, and Verification. This component formed a significant part of the autonomous claim processing environment, entrusted with validating claims, ensuring compliance with all stipulated rules for reimbursing individuals, and generating reimbursement events. A primary focus for us was managing the ever-growing system load, which urged us to implement measures to enhance the system's capacity.
 
-        environments: |
-          - Java, J2EE, ESB
-          - Spring, Springboot
-          - Jenkins
-          - MSSQL
-          - Microservice architecture
+      environments: |
+        - Java, J2EE, ESB
+        - Spring, Springboot
+        - Jenkins
+        - MSSQL
+        - Microservice architecture
+        - SOAP, REST
+        - JSON, XML
 
-      - role: Software developer
-        time: 2012 - 2016
-        company: Google Belgium
-        details:
-          My responsibilities included delving into incidents and effectively applying fixes for several internal applications, ensuring their smooth functionality. Investigating issues and implementing practical solutions constituted a crucial part of my tasks within the team's operational scope.
-        tasks: |
-          - Implementation / testing
-        projects:
-        environments: |
-          - Java, Python
-          - GCP
-          - Jenkins
+    - role: Software developer
+      time: 2012 - 2016
+      company: Google Belgium
+      details:
+        My responsibilities included delving into incidents and effectively applying fixes for several internal applications, ensuring their smooth functionality. Investigating issues and implementing practical solutions constituted a crucial part of my tasks within the team's operational scope.
+      tasks: |
+        - Implementation / testing
+      projects:
+      environments: |
+        - Java, Python
+        - GCP
+        - Jenkins
 
 non-professional-experiences:
   title: non-professional experiences
@@ -214,4 +222,4 @@ non-professional-experiences:
         - Angular   
 
 footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+  Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
