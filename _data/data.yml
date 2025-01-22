@@ -80,7 +80,7 @@ education:
 experiences:
     title: Experiences
     info:
-      - role: Software developer
+      - role: Software developer / Backend Tech lead
         time: 2022 - now
         company: Engie Digital - Freelance
         details:
@@ -99,14 +99,15 @@ experiences:
           - Document import/export: Developed versatile document processing systems to facilitate bulk operations across multiple asset types. Implemented robust importers and exporters enabling seamless data migration and integration. The system's flexibility allowed for efficient handling of large-scale data transfers while maintaining data integrity and validation requirements, significantly reducing manual data entry and processing time.
           - Agreement Service: Architected and implemented a contract management system organizing relationships between sites and agencies. Developed functionalities for multi-site agreement linking, milestone tracking, and automated notifications. The system enables automatic agreement generation, manages complex lifecycles through configurable states, and integrates with ticketing systems for renewal workflows, while providing robust notification mechanisms for agreement milestones.
         environments: |
-          - Java
+          - Java, JavaScript
           - Springboot, Micronaut
           - AWS, ECS, EC2, Fargate, SNS, SQS, Kinesis, Kafka, ECR, Cloudwatch, EventBridge, OpenSearch
           - Okta, Spring Security
           - MongoDB
           - Jenkins, Github Actions, Octopus Deploy, Terraform, Databricks
+          - Microservice architecture, Event-driven architecture
 
-      - role: Software developer / Team lead
+      - role: Software developer / Team lead / Tech lead
         time: 2021 - 2022
         company: Evonik - Freelance
         details:
@@ -122,14 +123,15 @@ experiences:
           - SFA 2.0: One of the major undertakings involved migrating the previously modernized monolith into a microservice architecture. This encompassed defining logical boundaries, devising a migration strategy, coordinating among various stakeholders, implementing the plan, and conducting testing.
           - Authentication and Authorization system: Due to the requirement for a highly adaptable and flexible authorization system, our decision was to construct a custom solution. Drawing inspiration from AWS policy files, we developed a unique multi-tenant authorization system that offers extensive flexibility.
         environments: |
-          - Java, Python, Javascript
+          - Java, Python, JavaScript
           - Springboot, Quarkus
           - AWS, ECS, EKS, SNS, SQS, Cognito, Kafka
           - Keycloak
           - MongoDB, Postgres
           - Jenkins
+          - Microservice architecture, Event-driven architecture
 
-      - role: Software developer / Team lead
+      - role: Software developer / Team lead / Tech lead
         time: 2020 - 2021
         company: Evonik
         details:
@@ -152,6 +154,7 @@ experiences:
           - Keycloak
           - MongoDB, Postgres
           - Jenkins
+          - Microservice architecture, Event-driven architecture
 
       - role: Software developer
         time: 2016 - 2019
@@ -171,6 +174,7 @@ experiences:
           - Java, J2EE, ESB
           - Jenkins
           - MSSQL
+          - Microservice architecture
 
       - role: Software developer
         time: 2012 - 2016
