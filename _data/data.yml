@@ -100,15 +100,19 @@ experiences:
         - Agreement Service: Architected and implemented a contract management system organizing relationships between sites and agencies. Developed functionalities for multi-site agreement linking, milestone tracking, and automated notifications. The system enables automatic agreement generation, manages complex lifecycles through configurable states, and integrates with ticketing systems for renewal workflows, while providing robust notification mechanisms for agreement milestones.
         - API design
       environments: |
-        - Java, JavaScript
-        - Springboot, Micronaut
-        - AWS, ECS, EC2, Fargate, SNS, SQS, Kinesis, Kafka, ECR, Cloudwatch, EventBridge, OpenSearch
-        - Okta, Spring Security
-        - MongoDB
-        - Jenkins, Github Actions, Octopus Deploy, Terraform, Databricks
-        - Microservice architecture, Event-driven architecture
-        - REST
-        - JSON, XML
+        - Java(11, 17, 21, 23), JavaScript, Python, Terraform
+        - Springboot, Quarkus, Micronaut, Vanilla Java
+        - Maven, Gradle
+        - AWS Services: ECS, EC2, Fargate, SNS, SQS, Kinesis, ECR, Cloudwatch, EventBridge, OpenSearch
+        - Message Brokers & Streaming: Kafka, Kinesis
+        - Authentication & Authorization: Okta, Spring Security
+        - Databases: MongoDB, Postgres, Flyway, Liquibase, Custom MigrationRunner, Spring Data JPA/Mongo, Hibernate
+        - Data Platform: Databricks
+        - CI/CD: Jenkins, Github Actions, Octopus Deploy, SonarQube
+        - Architecture Patterns: Microservice architecture, Event-driven architecture
+        - API Design: REST, JSON
+        - Docker
+        - Jira, Confluence
 
     - role: Software developer / Team lead / Tech lead
       time: 2021 - 2022
@@ -127,15 +131,19 @@ experiences:
         - Authentication and Authorization system: Due to the requirement for a highly adaptable and flexible authorization system, our decision was to construct a custom solution. Drawing inspiration from AWS policy files, we developed a unique multi-tenant authorization system that offers extensive flexibility.
         - API design
       environments: |
-        - Java, Python, JavaScript
-        - Springboot, Quarkus
-        - AWS, ECS, EKS, SNS, SQS, Cognito, Kafka, Kubernetes
-        - Keycloak
-        - MongoDB, Postgres
-        - Jenkins
-        - Microservice architecture, Event-driven architecture
-        - REST
-        - JSON, XML
+        - Java(8, 11, 17), Python, JavaScript
+        - Spring, Springboot, Quarkus
+        - Maven, Gradle
+        - AWS Services: ECS, EC2, EKS, SNS, SQS, DynamoDB, Cognito
+        - Message Brokers & Streaming: Kafka
+        - Container Orchestration: Kubernetes
+        - Authentication & Authorization: Keycloak, Cognito, In-house
+        - Databases: MongoDB, Postgres, DynamoDB, Flyway, Liquibase, Spring Data JPA/Mongo, Hibernate
+        - CI/CD: Jenkins, SonarQube, Grafana, Prometheus
+        - Architecture Patterns: Microservice architecture, Event-driven architecture
+        - API Design: REST, JSON
+        - Docker
+        - Jira, Confluence, Bitbucket
 
     - role: Software developer / Team lead / Tech lead
       time: 2020 - 2021
@@ -155,15 +163,19 @@ experiences:
         - API design
 
       environments: |
-        - Java, Python, JavaScript
+        - Java(8, 11, 17), Python, JavaScript
         - Spring, Springboot, Quarkus
-        - AWS, ECS, EKS, SNS, SQS, Cognito, Kafka, Kubernetes
-        - Keycloak
-        - MongoDB, Postgres
-        - Jenkins
-        - Microservice architecture, Event-driven architecture
-        - REST
-        - JSON, XML
+        - Maven, Gradle
+        - AWS Services: ECS, EC2, EKS, SNS, SQS, DynamoDB, Cognito
+        - Message Brokers & Streaming: Kafka
+        - Container Orchestration: Kubernetes
+        - Authentication & Authorization: Keycloak, Cognito, In-house
+        - Databases: MongoDB, Postgres, DynamoDB, Flyway, Liquibase, Spring Data JPA/Mongo, Hibernate
+        - CI/CD: Jenkins, SonarQube, Grafana
+        - Architecture Patterns: Microservice architecture, Event-driven architecture
+        - API Design: REST, JSON
+        - Docker
+        - Jira, Confluence, Bitbucket
 
     - role: Software developer
       time: 2016 - 2019
@@ -180,13 +192,16 @@ experiences:
         - EVVplus: Our team also shouldered the responsibility of EVVplus, an acronym for Enrichment, Validation, and Verification. This component formed a significant part of the autonomous claim processing environment, entrusted with validating claims, ensuring compliance with all stipulated rules for reimbursing individuals, and generating reimbursement events. A primary focus for us was managing the ever-growing system load, which urged us to implement measures to enhance the system's capacity.
 
       environments: |
-        - Java, J2EE, ESB
+        - Java (7, 8), J2EE
         - Spring, Springboot
-        - Jenkins
-        - MSSQL
-        - Microservice architecture
-        - SOAP, REST
-        - JSON, XML
+        - Maven
+        - Message Brokers & Streaming: ActiveMQ
+        - Databases: MSSQL, Flyway, Liquibase, JPA, Hibernate, EclipseLink
+        - CI/CD: Jenkins, SonarQube
+        - Architecture Patterns: Microservice architecture, Event-driven architecture
+        - API Design: REST, SOAP, JSON, XML
+        - Docker
+        - Jira, Confluence, Bitbucket
 
     - role: Software developer
       time: 2012 - 2016
@@ -197,9 +212,11 @@ experiences:
         - Implementation / testing
       projects:
       environments: |
-        - Java, Python
+        - Java(8), Python
+        - Maven, Gradle
         - GCP
         - Jenkins
+        - Jira, Confluence
 
 non-professional-experiences:
   title: non-professional experiences
@@ -207,22 +224,31 @@ non-professional-experiences:
     - name: Homii - Scheduler
       time: 2024
       description: |
-        - Developed a user-friendly Angular web application for managing home automation schedules and routines. 
+        - Developed a user-friendly Springboot/Angular web application for managing home automation schedules and routines. 
         The application simplifies the creation and maintenance of automated tasks within a home automation system, enabling users to easily configure time-based triggers and conditions.
       environments: |
-        - TypeScript
-        - Angular
-        - Okta
-        - MongoDB
-        - Github Actions
-        - name: Homii - Scheduler
+        - Java(21, 23), TypeScript
+        - Springboot, Angular (19)
+        - Gradle, npm
+        - Authentication & Authorization: ZeroAuth
+        - Databases: Postgres, Flyway, Spring Data JPA, Hibernate
+        - CI/CD: Jenkins, SonarQube
+        - API Design: REST, JSON
+        - Docker
+
     - name: Investment Calculator
       time: 2025
       description: |
         - Developed a web-based investment calculator that predicts the future value of your investments based on your starting amount, monthly contributions, and expected interest rate over your chosen time period.
       environments: |
-        - TypeScript
-        - Angular   
+        - Java (21, 23), TypeScript
+        - Springboot, Angular (19)
+        - Gradle, npm
+        - Authentication & Authorization: ZeroAuth
+        - Databases: Postgres, Flyway, Spring Data JPA, Hibernate
+        - CI/CD: Jenkins, SonarQube
+        - API Design: REST, JSON 
+        - Docker
 
 footer: >
   Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
