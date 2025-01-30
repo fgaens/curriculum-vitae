@@ -100,20 +100,11 @@ experiences:
         - Agreement Service: Architected and implemented a contract management system organizing relationships between sites and agencies. Developed functionalities for multi-site agreement linking, milestone tracking, and automated notifications. The system enables automatic agreement generation, manages complex lifecycles through configurable states, and integrates with ticketing systems for renewal workflows, while providing robust notification mechanisms for agreement milestones.
         - API design
       environments: |
-        - Java(11, 17, 21, 23), JavaScript, Python, Terraform
-        - Springboot, Quarkus, Micronaut, Vanilla Java
-        - Maven, Gradle
-        - AWS Services: ECS, EC2, Fargate, SNS, SQS, Kinesis, ECR, Cloudwatch, EventBridge, OpenSearch
-        - Message Brokers & Streaming: Kafka, Kinesis
-        - Authentication & Authorization: Okta, Spring Security
-        - Databases: MongoDB, Postgres, Flyway, Liquibase, Custom MigrationRunner, Spring Data JPA/Mongo, Hibernate
-        - Data Platform: Databricks
-        - CI/CD: Jenkins, Github Actions, Octopus Deploy, SonarQube
-        - Architecture Patterns: Microservice architecture, Event-driven architecture
-        - API Design: REST, JSON
-        - Docker
-        - Jira, Confluence
-        - Agile, Scrum
+        - Languages & Core: Java(11, 17, 21, 23), JavaScript, TypeScript, Python, Groovy, Gherkin, Springboot, Quarkus, Micronaut, Maven, Gradle, Angular (19), npm
+        - Cloud & Infrastructure: AWS (ECS, EC2, SNS, SQS, Kinesis, ECR, Cloudwatch, EventBridge, OpenSearch, DynamoDB, Cognito), Docker, Terraform, Antora
+        - Data & Storage: MongoDB, Postgres, DynamoDB, Redis, Flyway, Liquibase, Spring Data JPA, Spring Data Mongo, Hibernate, Kafka, Kinesis, Databricks, Spring Batch
+        - Development & Testing: Jenkins, Github Actions, Octopus Deploy, SonarQube, Grafana, Cucumber, REST, JSON, Okta, Spring Security, IntelliJ, VSCode, jMeter
+        - Architecture & Tools: Microservice Architecture, Event-driven Architecture, Jira, Confluence, Agile, Scrum
 
     - role: Software developer / Team lead / Tech lead
       time: 2021 - 2022
@@ -132,20 +123,11 @@ experiences:
         - Authentication and Authorization system: Due to the requirement for a highly adaptable and flexible authorization system, our decision was to construct a custom solution. Drawing inspiration from AWS policy files, we developed a unique multi-tenant authorization system that offers extensive flexibility.
         - API design
       environments: |
-        - Java(8, 11, 17), Python, JavaScript
-        - Spring, Springboot, Quarkus
-        - Maven, Gradle
-        - AWS Services: ECS, EC2, EKS, SNS, SQS, DynamoDB, Cognito
-        - Message Brokers & Streaming: Kafka
-        - Container Orchestration: Kubernetes
-        - Authentication & Authorization: Keycloak, Cognito, In-house
-        - Databases: MongoDB, Postgres, DynamoDB, Flyway, Liquibase, Spring Data JPA/Mongo, Hibernate
-        - CI/CD: Jenkins, SonarQube, Grafana, Prometheus
-        - Architecture Patterns: Microservice architecture, Event-driven architecture
-        - API Design: REST, JSON
-        - Docker
-        - Jira, Confluence, Bitbucket
-        - Agile, Scrum
+        - Languages & Core: Java(8, 11, 17), JavaScript, Python, Groovy, Gherkin, Spring, Springboot, Quarkus, Micronaut, Maven, Gradle
+        - Cloud & Infrastructure: AWS (ECS, EC2, EKS, SNS, SQS, Kinesis, ECR, Cloudwatch, OpenSearch, DynamoDB, Cognito), Docker, Kubernetes, Terraform
+        - Data & Storage: MongoDB, Postgres, DynamoDB, Redis, Flyway, Liquibase, Spring Data JPA, Spring Data Mongo, Hibernate, Kafka, Kinesis, Spring Batch
+        - Development & Testing: Jenkins, SonarQube, Grafana, Cucumber, K6, REST, JSON, Keycloak, Cognito, Spring Security, IntelliJ
+        - Architecture & Tools: Microservice Architecture, Event-driven Architecture, Jira, Confluence, Bitbucket, Agile, Scrum
 
     - role: Software developer / Team lead / Tech lead
       time: 2020 - 2021
@@ -165,20 +147,11 @@ experiences:
         - API design
 
       environments: |
-        - Java(8, 11, 17), Python, JavaScript
-        - Spring, Springboot, Quarkus
-        - Maven, Gradle
-        - AWS Services: ECS, EC2, EKS, SNS, SQS, DynamoDB, Cognito
-        - Message Brokers & Streaming: Kafka
-        - Container Orchestration: Kubernetes
-        - Authentication & Authorization: Keycloak, Cognito, In-house
-        - Databases: MongoDB, Postgres, DynamoDB, Flyway, Liquibase, Spring Data JPA/Mongo, Hibernate
-        - CI/CD: Jenkins, SonarQube, Grafana
-        - Architecture Patterns: Microservice architecture, Event-driven architecture
-        - API Design: REST, JSON
-        - Docker
-        - Jira, Confluence, Bitbucket
-        - Agile, Scrum
+        - Languages & Core: Java(8, 11, 17), JavaScript, Python, Groovy, Gherkin, Spring, Springboot, Quarkus, Micronaut, Maven, Gradle
+        - Cloud & Infrastructure: AWS (ECS, EC2, EKS, SNS, SQS, Kinesis, ECR, Cloudwatch, OpenSearch, DynamoDB, Cognito), Docker, Kubernetes, Terraform
+        - Data & Storage: MongoDB, Postgres, DynamoDB, Redis, Flyway, Liquibase, Spring Data JPA, Spring Data Mongo, Hibernate, Kafka, Kinesis, Spring Batch
+        - Development & Testing: Jenkins, SonarQube, Grafana, Cucumber, K6, REST, JSON, Keycloak, Cognito, Spring Security, IntelliJ
+        - Architecture & Tools: Microservice Architecture, Event-driven Architecture, Jira, Confluence, Bitbucket, Agile, Scrum
 
     - role: Software developer
       time: 2016 - 2019
@@ -195,17 +168,11 @@ experiences:
         - EVVplus: Our team also shouldered the responsibility of EVVplus, an acronym for Enrichment, Validation, and Verification. This component formed a significant part of the autonomous claim processing environment, entrusted with validating claims, ensuring compliance with all stipulated rules for reimbursing individuals, and generating reimbursement events. A primary focus for us was managing the ever-growing system load, which urged us to implement measures to enhance the system's capacity.
 
       environments: |
-        - Java (7, 8), J2EE
-        - Spring, Springboot
-        - Maven
-        - Message Brokers & Streaming: ActiveMQ
-        - Databases: MSSQL, Flyway, Liquibase, JPA, Hibernate, EclipseLink
-        - CI/CD: Jenkins, SonarQube
-        - Architecture Patterns: Microservice architecture, Event-driven architecture
-        - API Design: REST, SOAP, JSON, XML
-        - Docker
-        - Jira, Confluence, Bitbucket
-        - Agile, Scrum
+        - Languages & Core: Java(7, 8), Groovy, J2EE, Spring, Springboot, Maven
+        - Cloud & Infrastructure: Docker, Openshift, WebSphere, GlassFish, Payara
+        - Data & Storage: MSSQL, Flyway, Liquibase, Spring Data JPA, Spring Data Mongo, Hibernate, EclipseLink, ActiveMQ, ESB
+        - Development & Testing: Jenkins, SonarQube, REST, SOAP, JSON, XML, IntelliJ, jMeter
+        - Architecture & Tools: Microservice Architecture, Event-driven Architecture, Jira, Confluence, Bitbucket, Agile, Scrum
 
     - role: Software developer
       time: 2012 - 2016
@@ -216,12 +183,11 @@ experiences:
         - Implementation / testing
       projects:
       environments: |
-        - Java(8), Python
-        - Maven, Gradle
-        - GCP
-        - Jenkins
-        - Jira, Confluence
-        - Agile, Scrum
+        - Languages & Core: Java(8), Python, Groovy, Maven, Gradle
+        - Cloud & Infrastructure: Docker, GCP
+        - Data & Storage: MongoDB, Postgres, Redis
+        - Development & Testing: Jenkins, SonarQube, REST, JSON, IntelliJ
+        - Architecture & Tools: Jira, Confluence
 
 non-professional-experiences:
   title: non-professional experiences
@@ -232,28 +198,22 @@ non-professional-experiences:
         - Developed a user-friendly Springboot/Angular web application for managing home automation schedules and routines. 
         The application simplifies the creation and maintenance of automated tasks within a home automation system, enabling users to easily configure time-based triggers and conditions.
       environments: |
-        - Java(21, 23), TypeScript
-        - Springboot, Angular (19)
-        - Gradle, npm
-        - Authentication & Authorization: ZeroAuth
-        - Databases: Postgres, Flyway, Spring Data JPA, Hibernate
-        - CI/CD: Jenkins, SonarQube
-        - API Design: REST, JSON
-        - Docker
+        - Languages & Core: Java(23), JavaScript, TypeScript, Gherkin, Springboot, Gradle, Angular (19), npm
+        - Cloud & Infrastructure: Docker
+        - Data & Storage: Postgres, Flyway, Spring Data JPA, Hibernate, ActiveMQ
+        - Development & Testing: Jenkins, SonarQube, Grafana, Cucumber, REST, JSON, Okta, Auth0, Spring Security, IntelliJ, jMeter, Gherkin
+        - Architecture & Tools: Microservice Architecture
 
     - name: Investment Calculator
       time: 2025
       description: |
         - Developed a web-based investment calculator that predicts the future value of your investments based on your starting amount, monthly contributions, and expected interest rate over your chosen time period.
       environments: |
-        - Java (21, 23), TypeScript
-        - Springboot, Angular (19)
-        - Gradle, npm
-        - Authentication & Authorization: ZeroAuth
-        - Databases: Postgres, Flyway, Spring Data JPA, Hibernate
-        - CI/CD: Jenkins, SonarQube
-        - API Design: REST, JSON 
-        - Docker
+        - Languages & Core: Java(23), JavaScript, TypeScript, Gherkin, Springboot, Gradle, Angular (19), npm
+        - Cloud & Infrastructure: Docker
+        - Data & Storage: Postgres, Flyway, Spring Data JPA, Hibernate, ActiveMQ
+        - Development & Testing: Jenkins, SonarQube, Grafana, Cucumber, REST, JSON, Okta, Auth0, Spring Security, IntelliJ, jMeter, Gherkin
+        - Architecture & Tools: Microservice Architecture
 
 footer: >
   Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
