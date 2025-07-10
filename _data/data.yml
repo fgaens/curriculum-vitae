@@ -80,8 +80,26 @@ education:
 experiences:
   title: Experiences
   info:
+    - role: Fullstack Software developer
+      time: feb 2025 - now
+      company: FedNot - Freelance
+      details:
+      tasks: |
+        - Architecture design
+        - Technical analysis
+        - Implementation / testing
+      projects: |
+        - Centralis (BDES): Took ownership of the project focused on the management and visualization of economic, social, and environmental data required for legal compliance in the context of notarial services in Belgium. I was responsible for integrating into the platform, ensuring compatibility with evolving regulatory requirements.
+        - iBot (PRW): Took ownership of the project for managing real estate demands, particularly in notarial services in Belgium. I am responsible for PRW (preemption rights) demand integration with government API's. Additionally, I led the adaptation of our Angular-based frontend monorepo to support the new PRW workflow, implementing reusable components, standardized request status tracking, refactoring existing code to improve maintainability and ensure seamless integration with the backend services while maintaining consistent UX across the platform.
+      environments: |
+        - Languages & Core: Java(21, 23), JavaScript, TypeScript, Springboot, Maven, Angular (19), npm
+        - Cloud & Infrastructure: Tomcat, AWS (OpenSearch), Docker
+        - Data & Storage: Microsoft SQL Server, Liquibase, Spring Data JPA, ActiveMQ, Hibernate, Kafka, Spring Batch
+        - Development & Testing: Jenkins, SonarQube, REST, JSON, Spring Security, IntelliJ, VSCode, jMeter
+        - Architecture & Tools: Microservice Architecture, Event-driven Architecture, Jira, Confluence, Agile, Scrum
+
     - role: Software developer / Backend Tech lead
-      time: 2022 - now
+      time: oct 2022 - dec 2024
       company: Engie Digital - Freelance
       details:
       tasks: |
@@ -91,6 +109,7 @@ experiences:
         - CI/ CD
         - Infrastructure
       projects: |
+        - Took on a key leadership role as Tech & Team Lead, actively driving technical and methodological initiatives while fostering a collaborative Agile/Scrum team environment. Helped guide the team through process improvements and ensured delivery alignment with project goals.
         - CI/CD migration: I took charge of transferring our Jenkins pipelines to Github Action and Octopus Deploy. Due to the excessive complexity of the Jenkins pipelines, which were overly specific and not easily reusable, it demanded extensive analysis and configuration adjustments in our services to consolidate them into fewer, more efficient pipelines.
         - Modernizing backend landscape: Collectively, our team undertook the responsibility of upgrading the backend stack, transitioning from Java 11 to Java 17/21. Additionally, we managed the upgrades for our Spring Boot and Micronaut projects while handling the dependency updates across more than 60 services.
         - Energy module: Collaborating with a team member, we developed the Energy module. Its purpose was to receive meter data, store it, perform transformations, calculate diverse consumption metrics, identify anomalies, and subsequently activate various events and notifications based on those detections.
@@ -107,7 +126,7 @@ experiences:
         - Architecture & Tools: Microservice Architecture, Event-driven Architecture, Jira, Confluence, Agile, Scrum
 
     - role: Software developer / Team lead / Tech lead
-      time: 2021 - 2022
+      time: oct 2021 - oct 2022
       company: Evonik - Freelance
       details:
       tasks: |
@@ -118,6 +137,7 @@ experiences:
         - Technical analysis
         - Implementation / testing
       projects: |
+        - Acted as a driving force within the team by combining hands-on technical leadership with a proactive approach to Agile facilitation. Enabled the team to grow in autonomy and ownership through structured Scrum practices and continuous coaching.
         - Agistics integration: I oversaw the transition from an in-house custom logistics system to a third-party logistics provider. My responsibilities included managing project deadlines, collecting requirements, executing the integration, and conducting testing.
         - SFA 2.0: One of the major undertakings involved migrating the previously modernized monolith into a microservice architecture. This encompassed defining logical boundaries, devising a migration strategy, coordinating among various stakeholders, implementing the plan, and conducting testing.
         - Authentication and Authorization system: Due to the requirement for a highly adaptable and flexible authorization system, our decision was to construct a custom solution. Drawing inspiration from AWS policy files, we developed a unique multi-tenant authorization system that offers extensive flexibility.
@@ -130,7 +150,7 @@ experiences:
         - Architecture & Tools: Microservice Architecture, Event-driven Architecture, Jira, Confluence, Bitbucket, Agile, Scrum
 
     - role: Software developer / Team lead / Tech lead
-      time: 2020 - 2021
+      time: jan 2020 - oct 2021
       company: Evonik
       details:
       tasks: |
@@ -141,6 +161,7 @@ experiences:
         - Technical analysis
         - Implementation / testing
       projects: |
+        - Provided both technical direction and team leadership, taking initiative to introduce best practices and optimize workflows. Supported the team in adopting and refining Agile/Scrum methods to improve delivery and collaboration.
         - Modernizing monolith: An outdated Java 8 Spring monolith hosted on a local cloud provider was migrated to Spring 5 and Java 11, now running on AWS ECS.
         - Spits integration: For a major client seeking to replace their existing software with ours, we implemented an integration strategy that enabled a phased and smooth transition. Given the limitations of their system, we had to create adapters, implement transformations, and conduct batch processing.To preserve the integrity of our system and data, we dedicated significant time to rigorous data validation. This meticulous validation process was crucial to prevent any compromise to our system or data integrity during the integration phase.
         - SFA 2.0: One of the major undertakings involved migrating the previously modernized monolith into a microservice architecture. This encompassed defining logical boundaries, devising a migration strategy, coordinating among various stakeholders, implementing the plan, and conducting testing.
@@ -154,7 +175,7 @@ experiences:
         - Architecture & Tools: Microservice Architecture, Event-driven Architecture, Jira, Confluence, Bitbucket, Agile, Scrum
 
     - role: Software developer
-      time: 2016 - 2019
+      time: jan 2016 - dec 2019
       company: DKV - Consultant for Assign NV
       details:
       tasks: |
