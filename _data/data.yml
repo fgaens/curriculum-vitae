@@ -144,7 +144,7 @@ experiences:
         - API design
       environments: |
         - Languages & Core: Java(8, 11, 17), JavaScript, Python, Groovy, Gherkin, Spring, Springboot, Quarkus, Micronaut, Maven, Gradle
-        - Cloud & Infrastructure: AWS (ECS, EC2, EKS, SNS, SQS, Kinesis, ECR, Cloudwatch, OpenSearch, DynamoDB, Cognito), Docker, Kubernetes, Terraform
+        - Cloud & Infrastructure: AWS (ECS, EC2, EKS, SNS, SQS, Kinesis, ECR, Cloudwatch, OpenSearch, DynamoDB, Cognito), Docker, Kubernetes, Terraform, Serverless
         - Data & Storage: MongoDB, Postgres, DynamoDB, Redis, Flyway, Liquibase, Spring Data JPA, Spring Data Mongo, Hibernate, Kafka, Kinesis, Spring Batch
         - Development & Testing: Jenkins, SonarQube, Grafana, Cucumber, K6, REST, JSON, Keycloak, Cognito, Spring Security, IntelliJ
         - Architecture & Tools: Microservice Architecture, Event-driven Architecture, Jira, Confluence, Bitbucket, Agile, Scrum
@@ -169,7 +169,7 @@ experiences:
 
       environments: |
         - Languages & Core: Java(8, 11, 17), JavaScript, Python, Groovy, Gherkin, Spring, Springboot, Quarkus, Micronaut, Maven, Gradle
-        - Cloud & Infrastructure: AWS (ECS, EC2, EKS, SNS, SQS, Kinesis, ECR, Cloudwatch, OpenSearch, DynamoDB, Cognito), Docker, Kubernetes, Terraform
+        - Cloud & Infrastructure: AWS (ECS, EC2, EKS, SNS, SQS, Kinesis, ECR, Cloudwatch, OpenSearch, DynamoDB, Cognito), Docker, Kubernetes, Terraform, Serverless
         - Data & Storage: MongoDB, Postgres, DynamoDB, Redis, Flyway, Liquibase, Spring Data JPA, Spring Data Mongo, Hibernate, Kafka, Kinesis, Spring Batch
         - Development & Testing: Jenkins, SonarQube, Grafana, Cucumber, K6, REST, JSON, Keycloak, Cognito, Spring Security, IntelliJ
         - Architecture & Tools: Microservice Architecture, Event-driven Architecture, Jira, Confluence, Bitbucket, Agile, Scrum
@@ -189,7 +189,7 @@ experiences:
         - EVVplus: Our team also shouldered the responsibility of EVVplus, an acronym for Enrichment, Validation, and Verification. This component formed a significant part of the autonomous claim processing environment, entrusted with validating claims, ensuring compliance with all stipulated rules for reimbursing individuals, and generating reimbursement events. A primary focus for us was managing the ever-growing system load, which urged us to implement measures to enhance the system's capacity.
 
       environments: |
-        - Languages & Core: Java(7, 8), Groovy, J2EE, Spring, Springboot, Maven
+        - Languages & Core: Java(7, 8), Groovy, J2EE, Spring, Springboot, Struts, Maven
         - Cloud & Infrastructure: Docker, Openshift, WebSphere, GlassFish, Payara
         - Data & Storage: MSSQL, Flyway, Liquibase, Spring Data JPA, Spring Data Mongo, Hibernate, EclipseLink, ActiveMQ, ESB
         - Development & Testing: Jenkins, SonarQube, REST, SOAP, JSON, XML, IntelliJ, jMeter
@@ -236,5 +236,29 @@ non-professional-experiences:
         - Development & Testing: Jenkins, SonarQube, Grafana, Cucumber, REST, JSON, Okta, Auth0, Spring Security, IntelliJ, jMeter, Gherkin
         - Architecture & Tools: Microservice Architecture
 
-footer: >
-  Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+    - name: RephrazeAI
+      time: 2025
+      description: |
+        - AI-powered server that reformulates text according to the intended audience and communication type (formal/informal, text, email, social media, etc.).
+      environments: |
+        - Languages & Core: Quarkus, Langchain4j, MCP, Agentic AI, Gradle
+        - Cloud & Infrastructure: Docker
+        - Development & Testing: REST
+
+    - name: DomoPi
+      time: 2023 - ongoing
+      description: |
+        - Custom home automation implementation to control light, ventilation, and heating based on sensor input.
+      environments: |
+        - Languages & Core: Quarkus, GraalVM, Gradle
+        - Cloud & Infrastructure: Docker
+        - Data & Storage: MongoDB, Kafka
+        - Development & Testing: REST, Auth0
+
+    - name: Workflow Tools
+      time: ongoing
+      description: |
+        - Collection of tools, scripts and dashboards, primarily vanilla Java or Quarkus applications with optionaly a Qute frontend compiled to native executables. 
+        - Examples include: auto-squash (post-commit hook) and worklog aggregator (post-push hook).
+      environments: |
+        - Languages & Core: Vanilla Java, Quarkus, GraalVM, Gradle, Qute templating engine

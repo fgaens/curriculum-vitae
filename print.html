@@ -3,10 +3,14 @@ layout: print
 permalink: /print
 ---
 
-{% unless site.data.data.sidebar.education %}
-  {% include education.html %}
-{% endunless %}
+{% include profile-banner.html %}
 
 {% include experiences.html %}
 
+{% include education.html %}
+
 {% include skills.html %}
+
+{% include language.html %}
+
+{% include interests.html %}

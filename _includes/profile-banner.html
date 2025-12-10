@@ -1,0 +1,87 @@
+{% assign sidebar = site.data.data.sidebar %}
+<section class="section profile-banner-section">
+  <div class="profile-header">
+    <div class="profile-info">
+      {% if sidebar.avatar %}
+      <img class="avatar" src="{{ site.baseurl }}/assets/images/{{ sidebar.avatar }}" alt="profile picture" />
+      {% endif %}
+      <div class="profile-text">
+        <h1 class="name">{{ sidebar.name }}</h1>
+        {% if sidebar.tagline %}
+        <h2 class="tagline">{{ sidebar.tagline }}</h2>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+
+  <div class="contact-info">
+    <ul class="contact-list">
+      {% if sidebar.email %}
+      <li class="contact-item email">
+        <i class="fas fa-envelope"></i>
+        <a href="mailto:{{ sidebar.email }}">{{ sidebar.email }}</a>
+      </li>
+      {% endif %}
+
+      {% if sidebar.phone %}
+      <li class="contact-item phone">
+        <i class="fas fa-phone"></i>
+        <a href="tel:{{ sidebar.phone }}">{{ sidebar.phone }}</a>
+      </li>
+      {% endif %}
+
+      {% if sidebar.address %}
+      <li class="contact-item address">
+        <i class="fas fa-map-marker"></i>
+        {% if sidebar.google-maps-key %}
+        <a href="https://goo.gl/maps/{{ sidebar.google-maps-key }}" target="_blank">{{ sidebar.address }}</a>
+        {% else %}
+        <span>{{ sidebar.address }}</span>
+        {% endif %}
+      </li>
+      {% endif %}
+
+      {% if sidebar.linkedin %}
+      <li class="contact-item linkedin">
+        <i class="fab fa-linkedin"></i>
+        <a href="https://linkedin.com/in/{{ sidebar.linkedin }}" target="_blank">linkedin.com/in/{{ sidebar.linkedin }}</a>
+      </li>
+      {% endif %}
+
+      {% if sidebar.github %}
+      <li class="contact-item github">
+        <i class="fab fa-github"></i>
+        <a href="https://github.com/{{ sidebar.github }}" target="_blank">github.com/{{ sidebar.github }}</a>
+      </li>
+      {% endif %}
+
+      {% if sidebar.gitlab %}
+      <li class="contact-item gitlab">
+        <i class="fab fa-gitlab"></i>
+        <a href="https://gitlab.com/{{ sidebar.gitlab }}" target="_blank">gitlab.com/{{ sidebar.gitlab }}</a>
+      </li>
+      {% endif %}
+
+      {% if sidebar.bitbucket %}
+      <li class="contact-item bitbucket">
+        <i class="fab fa-bitbucket"></i>
+        <a href="https://bitbucket.org/{{ sidebar.bitbucket }}" target="_blank">bitbucket.org/{{ sidebar.bitbucket }}</a>
+      </li>
+      {% endif %}
+
+      {% if sidebar.stack-overflow %}
+      <li class="contact-item stack-overflow">
+        <i class="fab fa-stack-overflow"></i>
+        <a href="https://stackoverflow.com/users/{{ sidebar.stack-overflow }}" target="_blank">stackoverflow.com/users/{{ sidebar.stack-overflow }}</a>
+      </li>
+      {% endif %}
+
+      {% if sidebar.website %}
+      <li class="contact-item website">
+        <i class="fas fa-globe-americas"></i>
+        <a href="http://{{ sidebar.website }}" target="_blank">{{ sidebar.website }}</a>
+      </li>
+      {% endif %}
+    </ul>
+  </div>
+</section><!--//profile-banner-section-->
